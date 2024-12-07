@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddSchdule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConfirmCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JoinSubject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageGrade.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageSchedule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Signup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewClass2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewGrades.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewSchedule2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewSchedules.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowReset.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddSchdule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConfirmCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JoinSubject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageDepartment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageGrade.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageSchedule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Signup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewClass2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewGrades.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewSchedule2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewSchedules.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowReset.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

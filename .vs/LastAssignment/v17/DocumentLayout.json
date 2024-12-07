@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\viewgrades.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewgrades.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\viewclass2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewclass2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\studentprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\studentprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\studenthome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\studenthome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\managedepartment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managedepartment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\slottoleftconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\slottoleftconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\slottotopconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\slottotopconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\viewschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\viewschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\teachsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\teachsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\teacherhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\teacherhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\managestudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managestudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\studenthome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\studenthome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\addschdule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\addschdule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\prn212\\lastassignment\\lastassignment\\lastassignment\\finally\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewGrades.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewGrades.xaml",
+              "RelativeDocumentMoniker": "Finally\\ViewGrades.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewGrades.xaml",
+              "RelativeToolTip": "Finally\\ViewGrades.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:43.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewClass2.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewClass2.xaml",
+              "RelativeDocumentMoniker": "Finally\\ViewClass2.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewClass2.xaml",
+              "RelativeToolTip": "Finally\\ViewClass2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:42.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentProfile.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentProfile.xaml",
+              "RelativeDocumentMoniker": "Finally\\StudentProfile.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentProfile.xaml",
+              "RelativeToolTip": "Finally\\StudentProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:39.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentHome.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentHome.xaml",
+              "RelativeDocumentMoniker": "Finally\\StudentHome.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentHome.xaml",
+              "RelativeToolTip": "Finally\\StudentHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:32.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageDepartment.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ManageDepartment.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageDepartment.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ManageDepartment.xaml",
+              "RelativeToolTip": "Finally\\ManageDepartment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:28.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Finally\\MainWindow.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\MainWindow.xaml",
+              "RelativeToolTip": "Finally\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:08:21.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewClass.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewClass.xaml",
+              "RelativeDocumentMoniker": "Finally\\ViewClass.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ViewClass.xaml",
+              "RelativeToolTip": "Finally\\ViewClass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:01:52.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SlotToLeftConverter.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\SlotToLeftConverter.cs",
+              "RelativeDocumentMoniker": "Finally\\SlotToLeftConverter.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\SlotToLeftConverter.cs",
+              "RelativeToolTip": "Finally\\SlotToLeftConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:01:28.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SlotToTopConverter.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\SlotToTopConverter.cs",
+              "RelativeDocumentMoniker": "Finally\\SlotToTopConverter.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\SlotToTopConverter.cs",
+              "RelativeToolTip": "Finally\\SlotToTopConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:01:26.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailUtil.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\EmailUtil.cs",
+              "RelativeDocumentMoniker": "Finally\\EmailUtil.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\EmailUtil.cs",
+              "RelativeToolTip": "Finally\\EmailUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:01:10.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\Account.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Account.cs",
+              "RelativeToolTip": "Finally\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:58.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewSchedule.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\ViewSchedule.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\ViewSchedule.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\ViewSchedule.cs",
+              "RelativeToolTip": "Finally\\Models\\ViewSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:56.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeachSubject.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\TeachSubject.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\TeachSubject.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\TeachSubject.cs",
+              "RelativeToolTip": "Finally\\Models\\TeachSubject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:55.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\Student.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Student.cs",
+              "RelativeToolTip": "Finally\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:54.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\Schedule.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Schedule.cs",
+              "RelativeToolTip": "Finally\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "Finally\\Models\\Grade.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Models\\Grade.cs",
+              "RelativeToolTip": "Finally\\Models\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:59:51.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TeacherHome.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\TeacherHome.xaml",
+              "RelativeDocumentMoniker": "Finally\\TeacherHome.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\TeacherHome.xaml",
+              "RelativeToolTip": "Finally\\TeacherHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T12:58:34.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageStudent.xaml",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ManageStudent.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageStudent.xaml",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\ManageStudent.xaml",
+              "RelativeToolTip": "Finally\\ManageStudent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T12:58:06.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddSchdule.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\AddSchdule.xaml.cs",
+              "RelativeDocumentMoniker": "Finally\\AddSchdule.xaml.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\AddSchdule.xaml.cs",
+              "RelativeToolTip": "Finally\\AddSchdule.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T02:34:28.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Finally\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Finally\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T02:33:02.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentHome.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentHome.xaml.cs",
+              "RelativeDocumentMoniker": "Finally\\StudentHome.xaml.cs",
+              "ToolTip": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\StudentHome.xaml.cs",
+              "RelativeToolTip": "Finally\\StudentHome.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T03:45:22.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
