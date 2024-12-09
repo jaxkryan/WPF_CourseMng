@@ -27,6 +27,7 @@ namespace Finally
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
+
             string username = Username.Text;
             string password = Password.Password;
 

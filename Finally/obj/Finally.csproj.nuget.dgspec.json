@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Finally.csproj": {}
+    "D:\\WPF_CourseMng\\Finally\\Finally.csproj": {}
   },
   "projects": {
-    "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Finally.csproj": {
+    "D:\\WPF_CourseMng\\Finally\\Finally.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Finally.csproj",
+        "projectUniqueName": "D:\\WPF_CourseMng\\Finally\\Finally.csproj",
         "projectName": "Finally",
-        "projectPath": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\Finally.csproj",
+        "projectPath": "D:\\WPF_CourseMng\\Finally\\Finally.csproj",
         "packagesPath": "C:\\Users\\Phong Vu\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN212\\LastAssignment\\LastAssignment\\LastAssignment\\Finally\\obj\\",
+        "outputPath": "D:\\WPF_CourseMng\\Finally\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phong Vu\\AppData\\Roaming\\NuGet\\NuGet.Config",
