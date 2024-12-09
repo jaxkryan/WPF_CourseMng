@@ -41,34 +41,34 @@ namespace Finally
                 MessageBox.Show("Login successful!");
                 if ( role == 3)
                 {
+                    GetAccountID.Instance.ID = check.Id;
+                    GetAccountID.Instance.Role = (int)role;
+                    GetAccountID.Instance.Password = check.Password;
                     ManageDepartment department = new ManageDepartment(3);
-                    GetAccountID.ID = check.Id;
-                    GetAccountID.Role = (int)role;
-                    GetAccountID.Password = check.Password;
-                      
-                        department.Show();
+
+                    department.Show();
                    
                    
                     this.Close();
 
                 }else if (role == 1)
                 {
+                    GetAccountID.Instance.ID = check.Id;
+                    GetAccountID.Instance.Role = (int)role;
+                    GetAccountID.Instance.Password = check.Password;
                     TeacherHome teacherHome = new TeacherHome();
-                    GetAccountID.ID = check.Id;
-                    GetAccountID.Role = (int)role;
-                    GetAccountID.Password = check.Password;
-                   
+
                     teacherHome.Show();
                     this.Close();
 
                 }
                 else if (role == 2)
                 {
+                    GetAccountID.Instance.ID = check.Id;
+                    GetAccountID.Instance.Role = (int)role;
+                    GetAccountID.Instance.Password = check.Password;
                     StudentHome studentHome = new StudentHome();
-                    GetAccountID.ID = check.Id;
-                    GetAccountID.Role = (int)role;
-                    GetAccountID.Password = check.Password;
-                    
+
                     studentHome.Show();
                     this.Close();
                 }else if(role == 4)

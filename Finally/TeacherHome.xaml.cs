@@ -24,7 +24,7 @@ namespace Finally
         public TeacherHome()
         {
             InitializeComponent();
-            Hellost.Content = "Hello " + final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.ID).FullName;
+            Hellost.Content = "Hello " + final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID).FullName;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

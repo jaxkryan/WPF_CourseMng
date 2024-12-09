@@ -148,7 +148,7 @@ namespace Finally
             var schedules = from schedule in context.Schedules
                             join teach in context.Teachers on schedule.TeacherId equals teach.Id
                            
-                            where teach.AccountId == GetAccountID.ID
+                            where teach.AccountId == GetAccountID.Instance.ID
 
                             select new ViewSchedule
                             {

@@ -8,12 +8,23 @@ using System.Threading.Tasks;
 
 namespace Finally
 {
-    internal class GetAccountID
+    public class GetAccountID
     {
-        public static int? ID { get; set; }
+        private static GetAccountID _instance;
+        public static GetAccountID Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new GetAccountID();
+                }
+                return _instance;
+            }
+        }
 
-        public static int? Role {  get; set; }
-        
-        public static string Password { get; set;}
+        public int? ID { get; set; }
+        public int? Role { get; set; }
+        public string Password { get; set; }
     }
 }

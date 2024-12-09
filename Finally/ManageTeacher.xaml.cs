@@ -61,7 +61,7 @@ namespace Finally
 
         public void load(int Id)
         {
-            if (GetAccountID.Role == 3)
+            if (GetAccountID.Instance.Role == 3)
             {
                 ViewForAdmin.Visibility = Visibility.Visible;
                 ViewForTeacher.Visibility = Visibility.Collapsed;

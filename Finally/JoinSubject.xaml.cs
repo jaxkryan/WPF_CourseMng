@@ -24,7 +24,7 @@ namespace Finally
         public JoinSubject()
         {
             InitializeComponent();
-            var student = final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.ID);
+            var student = final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID);
 
             // Check if student is found
             if (student != null)
@@ -91,7 +91,7 @@ namespace Finally
                     if (dpkTimeLearn.SelectedDate.HasValue)
                     {
                         DateTime selectedDateTime = dpkTimeLearn.SelectedDate.Value;
-                        var student = final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.ID)?.Id;
+                        var student = final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID)?.Id;
                         if (student != null)
                         {
                             var schedules = from sch in final.Schedules

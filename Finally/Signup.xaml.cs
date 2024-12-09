@@ -108,9 +108,9 @@ namespace Finally
                 stu.AccountId = filnal.Accounts.Max(x => x.Id);
                 filnal.Students.Add(stu);
                 filnal.SaveChanges();
-                GetAccountID.ID = filnal.Accounts.Max(y => y.Id);
-                GetAccountID.Role = acc.RoleId;
-                GetAccountID.Password = acc.Password;
+                GetAccountID.Instance.ID = filnal.Accounts.Max(y => y.Id);
+                GetAccountID.Instance.Role = acc.RoleId;
+                GetAccountID.Instance.Password = acc.Password;
                 string code = GenerateCode();
                 codeGenerationTime = DateTime.Now;
                 SendCodeEmail(email, code);
@@ -138,9 +138,9 @@ namespace Finally
                 teacher.AccountId= filnal.Accounts.Max(y => y.Id);
                 filnal.Teachers.Add(teacher);
                 filnal.SaveChanges();
-                GetAccountID.ID = filnal.Accounts.Max(y => y.Id); 
-                GetAccountID.Role = acc.RoleId;
-                GetAccountID.Password = acc.Password;
+                GetAccountID.Instance.ID = filnal.Accounts.Max(y => y.Id);
+                GetAccountID.Instance.Role = acc.RoleId;
+                GetAccountID.Instance.Password = acc.Password;
                 string code = GenerateCode();
                 codeGenerationTime = DateTime.Now;
                 SendCodeEmail(email, code);

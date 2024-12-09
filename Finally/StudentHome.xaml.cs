@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Finally
 {
-    /// <summary>
-    /// Interaction logic for StudentHome.xaml
-    /// </summary>
     public partial class StudentHome : Window
     {
         FinallyContext final = new FinallyContext();
@@ -25,8 +22,7 @@ namespace Finally
         {
              InitializeComponent();
 
-            Hellost.Content = "Hello " + final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.ID).FullName;
-
+            Hellost.Content = "Hello " + final.Students.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID).FullName;
         }
 
 

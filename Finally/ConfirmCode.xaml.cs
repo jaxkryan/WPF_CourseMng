@@ -44,7 +44,7 @@ namespace Finally
             if (inputCode.Equals(confirmCode))
             {
                 MessageBox.Show("Check code successfully");
-                final.Accounts.FirstOrDefault(x => x.Id == GetAccountID.ID).Status = 1;
+                final.Accounts.FirstOrDefault(x => x.Id == GetAccountID.Instance.ID).Status = 1;
                 final.SaveChanges();
                 this.DialogResult = true;
                 this.Close();

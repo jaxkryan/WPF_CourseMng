@@ -39,7 +39,7 @@ namespace Finally
             var combo = from subject in final.Subjects
                         join grade in final.Grades on subject.Id equals grade.Subject
                         join st in final.Students on grade.StudentId equals st.Id
-                        where st.AccountId==GetAccountID.ID
+                        where st.AccountId== GetAccountID.Instance.ID
                         select subject.Name;
             SubjectComboBox.ItemsSource = combo.ToList();
             SubjectComboBox.SelectedIndex = 0;
@@ -52,7 +52,7 @@ namespace Finally
                           join gr in final.Grades on sb.Id equals gr.Subject
                           join gr2 in final.GradeDetails on gr.Grade1 equals gr2.GradeId
                           join st in final.Students on gr.StudentId equals st.Id
-                          where sb.Name == selectedSubject && st.AccountId == GetAccountID.ID
+                          where sb.Name == selectedSubject && st.AccountId == GetAccountID.Instance.ID
                           select gr2;
                 if (grd == null)
                 {
@@ -128,7 +128,7 @@ namespace Finally
                           join gr in final.Grades on sb.Id equals gr.Subject
                           join gr2 in final.GradeDetails on gr.Grade1 equals gr2.GradeId    
                           join st in final.Students on gr.StudentId equals st.Id
-                          where sb.Name == selectedSubject && st.AccountId == GetAccountID.ID
+                          where sb.Name == selectedSubject && st.AccountId == GetAccountID.Instance.ID
                           select gr2;
                 if (grd == null)
                 {

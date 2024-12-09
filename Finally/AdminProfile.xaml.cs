@@ -33,7 +33,7 @@ namespace Finally
 
         public void load()
         {
-            Admin admin = final.Admins.FirstOrDefault(x => x.AccountId == GetAccountID.ID);
+            Admin admin = final.Admins.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID);
             if (admin != null)
             {
                 DateTime.TryParse(admin.DateOfBirth.ToString(), out DateTime date);
@@ -55,7 +55,7 @@ namespace Finally
 
         private void SaveChanges_Click(object sender, RoutedEventArgs e)
         {
-            Admin admin = final.Admins.FirstOrDefault(x => x.AccountId == GetAccountID.ID);
+            Admin admin = final.Admins.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID);
             if (admin != null)
             {
                 DateOnly.TryParse(dpDateOfBirth.Text, out DateOnly date);

@@ -108,7 +108,7 @@ namespace Finally
             DateOnly? date = DateOnly.FromDateTime(DateTime.Now);
             DataTable dt = ((DataView)GradesDataGrid.ItemsSource).ToTable();
             
-            var teacherID = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.ID).Id;
+            var teacherID = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID).Id;
             using (var context = new FinallyContext())
             {
                 foreach (DataRow row in dt.Rows)

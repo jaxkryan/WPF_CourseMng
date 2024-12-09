@@ -34,7 +34,7 @@ namespace Finally
 
         public void load()
         {
-            Teacher teacher = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.ID);
+            Teacher teacher = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID);
             if (teacher != null)
             {
                 DateTime.TryParse(teacher.DateOfBirth.ToString(), out DateTime date);
@@ -44,7 +44,7 @@ namespace Finally
                 rbFemale.IsChecked = teacher.Gender == 0;
                 txtPhoneNumber.Text = teacher.PhoneNumber;
                 txtAddress.Text = teacher.Address;
-                txtPassword.Text = GetAccountID.Password;
+                txtPassword.Text = GetAccountID.Instance.Password;
             }
         }
         public void changePass(int? email, string pass)
@@ -66,7 +66,7 @@ namespace Finally
 
         private void SaveChanges_Click(object sender, RoutedEventArgs e)
         {
-            Teacher teacher = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.ID);
+            Teacher teacher = final.Teachers.FirstOrDefault(x => x.AccountId == GetAccountID.Instance.ID);
             if (teacher != null)
             {
                 DateOnly.TryParse(dpDateOfBirth.Text, out DateOnly date);
@@ -75,7 +75,7 @@ namespace Finally
                 teacher.Gender = rbMale.IsChecked == true ? 1 : (rbFemale.IsChecked == true ? 0 : -1);
                 teacher.PhoneNumber = txtPhoneNumber.Text;
                 teacher.Address = txtAddress.Text;
-                changePass(GetAccountID.ID, txtPassword.Text);
+                changePass(GetAccountID.Instance.ID, txtPassword.Text);
                 final.Teachers.Update(teacher);
                 if (final.SaveChanges() > 0)
                 {

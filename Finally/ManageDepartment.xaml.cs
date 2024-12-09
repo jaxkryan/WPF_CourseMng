@@ -37,7 +37,7 @@ namespace Finally
 
         public void loadDepartment()
         {
-            if (GetAccountID.Role == 3)
+            if (GetAccountID.Instance.Role == 3)
             {
                 ButtonForAdmin.Visibility = Visibility.Visible;
                 TxtForAdmin.Visibility = Visibility.Visible;
