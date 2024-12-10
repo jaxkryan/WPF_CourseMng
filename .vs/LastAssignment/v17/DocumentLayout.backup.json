@@ -3,23 +3,30 @@
   "WorkspaceRootPath": "D:\\WPF_CourseMng\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewschedules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewschedules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ScheduleStu.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewschedule2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewschedule2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Schedules.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewschedule2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewschedule2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\managedepartment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managedepartment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ClassStu.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Classes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,21 +36,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailUtil.cs",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\EmailUtil.cs",
-              "RelativeDocumentMoniker": "Finally\\EmailUtil.cs",
-              "ToolTip": "D:\\WPF_CourseMng\\Finally\\EmailUtil.cs",
-              "RelativeToolTip": "Finally\\EmailUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:03:05.597Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -54,50 +48,88 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.ScheduleStu [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ScheduleStu.sql",
+              "ToolTip": "dbo.ScheduleStu [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:47:12.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ViewSchedule2.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml.cs",
               "RelativeDocumentMoniker": "Finally\\ViewSchedule2.xaml.cs",
               "ToolTip": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml.cs",
               "RelativeToolTip": "Finally\\ViewSchedule2.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwCsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:53:50.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewSchedule2.xaml",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml",
-              "RelativeDocumentMoniker": "Finally\\ViewSchedule2.xaml",
-              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml",
-              "RelativeToolTip": "Finally\\ViewSchedule2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T02:53:47.764Z",
+              "WhenOpened": "2024-12-10T03:46:32.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Accounts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "dbo.Accounts [Data]",
+              "Title": "ViewSchedules.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedules.xaml.cs",
+              "RelativeDocumentMoniker": "Finally\\ViewSchedules.xaml.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ViewSchedules.xaml.cs",
+              "RelativeToolTip": "Finally\\ViewSchedules.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T03:46:30.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Schedules [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Schedules.sql",
+              "ToolTip": "dbo.Schedules [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T02:48:29.156Z",
+              "WhenOpened": "2024-12-10T03:40:38.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ManageDepartment.xaml.cs",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageDepartment.xaml.cs",
-              "RelativeDocumentMoniker": "Finally\\ManageDepartment.xaml.cs",
-              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageDepartment.xaml.cs",
-              "RelativeToolTip": "Finally\\ManageDepartment.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADgvycAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T03:22:02.911Z",
+              "Title": "dbo.Accounts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql",
+              "ToolTip": "dbo.Accounts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:41:35.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Students [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "dbo.Students [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:39:06.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.ClassStu [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ClassStu.sql",
+              "ToolTip": "dbo.ClassStu [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:32:23.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Classes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Classes.sql",
+              "ToolTip": "dbo.Classes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:32:17.728Z",
               "EditorCaption": ""
             }
           ]

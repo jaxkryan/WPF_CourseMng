@@ -142,8 +142,6 @@ namespace Finally
         }
         public void load(DateTime startDate, DateTime endDate)
         {
-            
-
             // Truy vấn với điều kiện ngày trong khoảng
             var schedules = from schedule in context.Schedules
                             join schedustu in context.ScheduleStus on schedule.ScheduleId equals schedustu.ScheduleId
