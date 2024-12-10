@@ -129,7 +129,7 @@ namespace Finally
                 Account acc = new Account();
                 acc.Username = username;
                 acc.Password = password;
-                acc.RoleId = 3;
+                acc.RoleId = 1;
                 acc.Status = 0;
                 filnal.Accounts.Add(acc);
                 filnal.SaveChanges();

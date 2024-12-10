@@ -38,7 +38,7 @@ namespace Finally
 
             if (check != null)
             {
-                MessageBox.Show("Login successful!");
+                //MessageBox.Show("Login successful!");
                 if ( role == 3)
                 {
                     GetAccountID.Instance.ID = check.Id;

@@ -10,8 +10,8 @@ namespace Finally
 {
     public class EmailUtil
     {
-        private static readonly string fromEmail = "huyg.a22052003@gmail.com"; // Replace with your email address
-        private static readonly string password = "hdus strs jqvr euyx"; // Replace with your email password
+        private static readonly string fromEmail = "huyldhe176275@fpt.edu.vn"; // Replace with your email address
+        private static readonly string password = "anpl jbjj uoxx ohbx"; // Replace with your email password
 
         public static void SendEmail(string toEmail, string subject, string body)
         {
