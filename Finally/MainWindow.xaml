@@ -20,7 +20,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Manager Student" 
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Academic Portal Lite" 
             FontSize="24" FontWeight="Bold" Foreground="DarkOrange" 
             HorizontalAlignment="Center" Margin="10"/>
 

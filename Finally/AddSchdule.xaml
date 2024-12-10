@@ -24,7 +24,7 @@
 
         <!-- Campus -->
         <StackPanel Grid.Row="0" Grid.Column="1">
-            <Label Content="Join Subject" FontSize="40" FontWeight="Bold" Foreground="Crimson"/>
+            <Label Content="Add Schedule" Margin="100,0,0,0" FontSize="40" FontWeight="Bold" Foreground="Crimson"/>
         </StackPanel>
 
         <!-- Subject Code -->

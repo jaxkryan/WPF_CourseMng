@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "D:\\WPF_CourseMng\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\manageschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\manageschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\managegrades.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managegrades.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\managegrade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managegrade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\managedepartment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\managedepartment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\manageclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\manageclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\joinsubject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\joinsubject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\emailutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\getaccountid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\getaccountid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\confirmcode.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\confirmcode.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\confirmcode.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\confirmcode.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\adminprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\adminprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\addschdule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\addschdule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -53,6 +109,177 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ManageSchedule.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageSchedule.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageSchedule.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageSchedule.xaml",
+              "RelativeToolTip": "Finally\\ManageSchedule.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:35:12.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageGrades.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageGrades.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageGrades.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageGrades.xaml",
+              "RelativeToolTip": "Finally\\ManageGrades.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:35:11.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageGrade.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageGrade.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageGrade.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageGrade.xaml",
+              "RelativeToolTip": "Finally\\ManageGrade.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:35:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageDepartment.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageDepartment.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageDepartment.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageDepartment.xaml",
+              "RelativeToolTip": "Finally\\ManageDepartment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:35:08.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageClass.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ManageClass.xaml",
+              "RelativeDocumentMoniker": "Finally\\ManageClass.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ManageClass.xaml",
+              "RelativeToolTip": "Finally\\ManageClass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:35:04.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Finally\\MainWindow.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\MainWindow.xaml",
+              "RelativeToolTip": "Finally\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:33:56.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JoinSubject.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\JoinSubject.xaml",
+              "RelativeDocumentMoniker": "Finally\\JoinSubject.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\JoinSubject.xaml",
+              "RelativeToolTip": "Finally\\JoinSubject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:33:26.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAccountID.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\GetAccountID.cs",
+              "RelativeDocumentMoniker": "Finally\\GetAccountID.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\GetAccountID.cs",
+              "RelativeToolTip": "Finally\\GetAccountID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T04:33:13.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailUtil.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\EmailUtil.cs",
+              "RelativeDocumentMoniker": "Finally\\EmailUtil.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\EmailUtil.cs",
+              "RelativeToolTip": "Finally\\EmailUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T04:33:11.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfirmCode.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ConfirmCode.xaml.cs",
+              "RelativeDocumentMoniker": "Finally\\ConfirmCode.xaml.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ConfirmCode.xaml.cs",
+              "RelativeToolTip": "Finally\\ConfirmCode.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T04:29:38.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmCode.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ConfirmCode.xaml",
+              "RelativeDocumentMoniker": "Finally\\ConfirmCode.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ConfirmCode.xaml",
+              "RelativeToolTip": "Finally\\ConfirmCode.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:29:25.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\App.xaml",
+              "RelativeDocumentMoniker": "Finally\\App.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\App.xaml",
+              "RelativeToolTip": "Finally\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:29:23.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminProfile.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\AdminProfile.xaml",
+              "RelativeDocumentMoniker": "Finally\\AdminProfile.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\AdminProfile.xaml",
+              "RelativeToolTip": "Finally\\AdminProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:29:17.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddSchdule.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\AddSchdule.xaml",
+              "RelativeDocumentMoniker": "Finally\\AddSchdule.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\AddSchdule.xaml",
+              "RelativeToolTip": "Finally\\AddSchdule.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T04:27:13.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ViewClass.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewClass.xaml",
               "RelativeDocumentMoniker": "Finally\\ViewClass.xaml",
@@ -64,17 +291,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.ScheduleStu [Data]",
+              "DocumentIndex": 16,
+              "Title": "dbo.ScheduleStu.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ScheduleStu.sql",
-              "ToolTip": "dbo.ScheduleStu [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ScheduleStu.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:47:12.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:47:12.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "ViewSchedule2.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml.cs",
               "RelativeDocumentMoniker": "Finally\\ViewSchedule2.xaml.cs",
@@ -82,12 +308,11 @@
               "RelativeToolTip": "Finally\\ViewSchedule2.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:46:32.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:46:32.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "ViewSchedules.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedules.xaml.cs",
               "RelativeDocumentMoniker": "Finally\\ViewSchedules.xaml.cs",
@@ -95,58 +320,52 @@
               "RelativeToolTip": "Finally\\ViewSchedules.xaml.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:46:30.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:46:30.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Schedules [Data]",
+              "DocumentIndex": 17,
+              "Title": "dbo.Schedules.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Schedules.sql",
-              "ToolTip": "dbo.Schedules [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Schedules.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:40:38.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:40:38.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.Accounts [Data]",
+              "DocumentIndex": 19,
+              "Title": "dbo.Accounts.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "dbo.Accounts [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:41:35.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:41:35.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Students [Data]",
+              "DocumentIndex": 20,
+              "Title": "dbo.Students.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Students.sql",
-              "ToolTip": "dbo.Students [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Students.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:39:06.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:39:06.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.ClassStu [Data]",
+              "DocumentIndex": 21,
+              "Title": "dbo.ClassStu.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ClassStu.sql",
-              "ToolTip": "dbo.ClassStu [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ClassStu.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:32:23.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:32:23.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.Classes [Data]",
+              "DocumentIndex": 22,
+              "Title": "dbo.Classes.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Classes.sql",
-              "ToolTip": "dbo.Classes [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Classes.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-10T03:32:17.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:32:17.728Z"
             }
           ]
         }

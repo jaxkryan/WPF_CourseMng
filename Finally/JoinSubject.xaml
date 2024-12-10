@@ -22,7 +22,7 @@
 
         <!-- Campus -->
         <StackPanel Grid.Row="0" Grid.Column="1">
-            <Label Content="Join Subject" FontSize="40" FontWeight="Bold" Foreground="Crimson"/> 
+            <Label Content="Join Subject" Margin="170,0,0,0" FontSize="40" FontWeight="Bold" Foreground="Crimson"/> 
         </StackPanel>
 
         <!-- Subject Code -->

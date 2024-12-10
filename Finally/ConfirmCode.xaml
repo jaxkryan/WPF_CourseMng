@@ -7,7 +7,11 @@
         mc:Ignorable="d"
          Title="ConfirmCode" Height="200" Width="250">
     <Grid Background="Cornsilk">
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="108*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="20,0,0,0">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />

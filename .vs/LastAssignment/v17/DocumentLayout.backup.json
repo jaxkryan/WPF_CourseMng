@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\WPF_CourseMng\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|d:\\wpf_coursemng\\finally\\viewschedules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A31E6EB8-6C82-439D-BFD6-E663832D2C27}|Finally\\Finally.csproj|solutionrelative:finally\\viewschedules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,7 +52,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ViewClass.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewClass.xaml",
+              "RelativeDocumentMoniker": "Finally\\ViewClass.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\Finally\\ViewClass.xaml",
+              "RelativeToolTip": "Finally\\ViewClass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T03:49:59.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "dbo.ScheduleStu [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ScheduleStu.sql",
               "ToolTip": "dbo.ScheduleStu [Data]",
@@ -58,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ViewSchedule2.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedule2.xaml.cs",
               "RelativeDocumentMoniker": "Finally\\ViewSchedule2.xaml.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ViewSchedules.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\Finally\\ViewSchedules.xaml.cs",
               "RelativeDocumentMoniker": "Finally\\ViewSchedules.xaml.cs",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "dbo.Schedules [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Schedules.sql",
               "ToolTip": "dbo.Schedules [Data]",
@@ -94,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "dbo.Accounts [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Accounts.sql",
               "ToolTip": "dbo.Accounts [Data]",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "dbo.Students [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Students.sql",
               "ToolTip": "dbo.Students [Data]",
@@ -114,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "dbo.ClassStu [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.ClassStu.sql",
               "ToolTip": "dbo.ClassStu [Data]",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "dbo.Classes [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/Finally/True/SqlTable/dbo.Classes.sql",
               "ToolTip": "dbo.Classes [Data]",
