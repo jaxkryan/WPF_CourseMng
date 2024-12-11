@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YRtK418wnOU=",
+  "dgSpecHash": "G+kF2pZi0mQ=",
   "success": true,
-  "projectFilePath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
+  "projectFilePath": "D:\\WPF_CourseMng\\CourseManagementSystem\\CourseManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Phong Vu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Phong Vu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

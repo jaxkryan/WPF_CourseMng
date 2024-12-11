@@ -34,6 +34,9 @@
     <Compile Update="EnrollmentManagement\EnrollmentManagement.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ForgotPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -82,6 +85,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EnrollmentManagement\EnrollmentManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ForgotPassword.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Home.xaml">

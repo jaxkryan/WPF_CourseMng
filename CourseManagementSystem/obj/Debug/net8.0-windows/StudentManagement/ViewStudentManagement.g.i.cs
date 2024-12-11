@@ -125,7 +125,8 @@ namespace CourseManagementSystem.StudentManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/studentmanagement/viewstudentmanagement.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/studentmanagement/viewstudentmanagemen" +
+                    "t.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\StudentManagement\ViewStudentManagement.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Course-Management-main\Course-Management-main\CourseManagementSystem\CourseManagementSystem\obj\Debug\net8.0-windows\
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\
 CourseManagementSystem
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Course-Management-main\Course-Management-main\CourseManagementSystem\CourseManagementSystem\App.xaml
-16-1545973563
+D:\WPF_CourseMng\CourseManagementSystem\App.xaml
+17-1931658887
 
-22472759969
-252-526453860
-Course\AddAssessment.xaml;Course\AddCourse.xaml;Course\EditCourse.xaml;Course\ViewAssessment.xaml;Course\ViewCourseManage.xaml;DepartmentManagement\Departments.xaml;EnrollmentManagement\AddEnrollment.xaml;EnrollmentManagement\EditMark.xaml;EnrollmentManagement\EnrollmentManagement.xaml;Home.xaml;Login.xaml;SemeterManagement\AddSemester.xaml;SemeterManagement\EditSemester.xaml;SemeterManagement\SemesterManagement.xaml;StudentManagement\AddStudent.xaml;StudentManagement\ViewStudentManagement.xaml;
+24-569598859
+252-1365602365
+Course\AddAssessment.xaml;Course\AddCourse.xaml;Course\EditCourse.xaml;Course\ViewAssessment.xaml;Course\ViewCourseManage.xaml;DepartmentManagement\Departments.xaml;EnrollmentManagement\AddEnrollment.xaml;EnrollmentManagement\EditMark.xaml;EnrollmentManagement\EnrollmentManagement.xaml;ForgotPassword.xaml;Home.xaml;Login.xaml;SemeterManagement\AddSemester.xaml;SemeterManagement\EditSemester.xaml;SemeterManagement\SemesterManagement.xaml;StudentManagement\AddStudent.xaml;StudentManagement\ViewStudentManagement.xaml;
 
 True
 

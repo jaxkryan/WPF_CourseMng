@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\WPF_CourseMng\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\WPF_CourseMng\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\WPF_CourseMng\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\BusinessObjects.csproj",
+        "projectPath": "D:\\WPF_CourseMng\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\Phong Vu\\.nuget\\packages\\",
-        "outputPath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\obj\\",
+        "outputPath": "D:\\WPF_CourseMng\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phong Vu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\WPF_CourseMng\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\WPF_CourseMng\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\WPF_CourseMng\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Phong Vu\\.nuget\\packages\\",
-        "outputPath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\WPF_CourseMng\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phong Vu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\Course-Management-main\\Course-Management-main\\CourseManagementSystem\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\WPF_CourseMng\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\WPF_CourseMng\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }

@@ -21,24 +21,25 @@ namespace CourseManagementSystem
     /// </summary>
     public partial class Login : Window
     {
+        CourseManagementDbContext _context = new CourseManagementDbContext();
+
         public Login()
         {
             InitializeComponent();
-            PasswordTextBox.Visibility = Visibility.Collapsed;
+            Password.Visibility = Visibility.Collapsed;
         }
 
         public void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            CourseManagementDbContext _context = new CourseManagementDbContext();
-            if(UsernameTextBox.Text == "" ||  PasswordBox.Password == "")
+            if(Username.Text == "" || Password.Password == "")
             {
                 MessageBox.Show("Please provide UserName and Password !!!");
                 return;
             }
             else
             {
-                string username = UsernameTextBox.Text;
-                string password = PasswordBox.Password;
+                string username = Username.Text;
+                string password = Password.Password;
            
                 if (AccountMemberDAO.CheckExist(username, password) == null) 
                 {
@@ -54,20 +55,20 @@ namespace CourseManagementSystem
             }
         }
 
-        public void TogglePasswordVisibility(object sender, RoutedEventArgs e)
-        {
-            if (PasswordBox.Visibility == Visibility.Visible)
-            {
-                PasswordBox.Visibility = Visibility.Collapsed;
-                PasswordTextBox.Text = PasswordBox.Password;
-                PasswordTextBox.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                PasswordTextBox.Visibility = Visibility.Collapsed;
-                PasswordBox.Password = PasswordTextBox.Text;
-                PasswordBox.Visibility = Visibility.Visible;
-            }
-        }
+        //public void TogglePasswordVisibility(object sender, RoutedEventArgs e)
+        //{
+        //    if (Password.Visibility == Visibility.Visible)
+        //    {
+        //        Password.Visibility = Visibility.Collapsed;
+        //        PasswordTextBox.Text = Password.Password;
+        //        PasswordTextBox.Visibility = Visibility.Visible;
+        //    }
+        //    else
+        //    {
+        //        PasswordTextBox.Visibility = Visibility.Collapsed;
+        //        Password.Password = PasswordTextBox.Text;
+        //        Password.Visibility = Visibility.Visible;
+        //    }
+        //}
     }
 }

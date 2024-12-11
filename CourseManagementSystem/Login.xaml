@@ -7,22 +7,54 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#f0f0f0">
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Stretch="UniformToFill"/>
-        </Grid.Background>
-        <Border Background="White" CornerRadius="10" Padding="20" Margin="50" BorderBrush="#CCCCCC" BorderThickness="1">
-            <StackPanel>
-                <TextBlock Text="Course Management System" FontSize="26" FontWeight="Bold" Foreground="Red" HorizontalAlignment="Center" Margin="0,0,0,20"/>
-                <Label Content="Username:" Foreground="#666666" Margin="0,0,0,5"/>
-                <TextBox Name="UsernameTextBox" Margin="0,0,0,10" Padding="10" />
-                <Label Content="Password:" Foreground="#666666" Margin="0,0,0,5"/>
-                <Grid>
-                    <PasswordBox Name="PasswordBox" Padding="10" Width="500" HorizontalAlignment="Left" Visibility="Visible"/>
-                    <TextBox Name="PasswordTextBox" Margin="0,0,0,0" Padding="10" Width="500" HorizontalAlignment="Left" Visibility="Collapsed"/>
-                    <Button Content="👁" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Center" Click="TogglePasswordVisibility" Background="Transparent" BorderBrush="Transparent"/>
-                </Grid>
-                <Button Content="Login" Width="100" Height="40" HorizontalAlignment="Center" Click="LoginButton_Click" Background="#2196F3" Foreground="White" FontWeight="Bold" BorderBrush="#4CAF50" BorderThickness="1"  Margin="20,30,0,0"/>
+        <!-- Background Image -->
+        <Image Source="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <!-- Semi-transparent white overlay for left login form -->
+        <Grid Background="#AAFFFFFF" Margin="0,0,350,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left Section (Login Form) -->
+            <StackPanel Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,99,0,0" Grid.RowSpan="5">
+                <TextBlock Text="Academic Portal Lite" 
+                        FontSize="28" FontWeight="Bold" Foreground="DarkOrange" 
+                        HorizontalAlignment="Center" Margin="10"/>
+
+                <Label Content="Username:" Foreground="DarkGreen"/>
+                <TextBox x:Name="Username" Margin="10" Background="LightGreen" Foreground="DarkGreen"/>
+
+                <Label Content="Password:" Foreground="DarkGreen"/>
+                <PasswordBox x:Name="Password" Margin="10" Background="LightGreen" Foreground="DarkGreen"/>
+
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="10">
+                    <Button x:Name="LoginButton" Content="Login" Width="150" Margin="5" Click="LoginButton_Click"
+                         Background="DarkOrange" Foreground="White"/>
+                    <!--<Button x:Name="CancelButton" Content="Cancel" Width="150" Margin="5" Click="CancelButton_Click"
+                         Background="Tomato" Foreground="White"/>-->
+                    <!--<Button x:Name="Signupbutton" Content="Sign up" Width="150" Margin="10" Click="Signupbutton_Click"
+                         Background="DarkOrange" Foreground="White"/>-->
+                </StackPanel>
+                <!--<Button Content="Forgot Password" Width="150" Margin="5" Click="Button_Click"
+                     Background="LightGray" Foreground="Black"/>-->
+
             </StackPanel>
-        </Border>
+
+        </Grid>
+
+        <!-- Right Section (Image) -->
+        <Grid Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="534">
+            <!-- You can remove the image from here since it's already used as the background -->
+        </Grid>
+
     </Grid>
 </Window>
