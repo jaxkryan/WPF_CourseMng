@@ -1,0 +1,64 @@
+﻿<Window x:Class="CourseManagementSystem.StudentManagement.ViewStudentManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseManagementSystem.StudentManagement"
+        mc:Ignorable="d"
+        Title="ViewStudentManagement" Height="650" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <Style TargetType="DataGrid">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="ColumnHeaderHeight" Value="40"/>
+            <Setter Property="RowHeight" Value="30"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="STUDENT MANAGEMENT" Foreground="Red" Margin="0,0,0,9" FontSize="25" 
+           HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="10,10,0,10">
+            <TextBlock Text="Search:" Margin="10" Foreground="White"/>
+            <TextBox x:Name="txtSearchName" Width="150" Height="30" Margin="5" Padding="5" TextChanged="txtSearchName_TextChanged"/>
+            <TextBlock Text="Gender:" Margin="10" Foreground="White"/>
+            <ComboBox x:Name="cboGender" Width="100" Height="30" Margin="5" SelectionChanged="filter"/>
+            <TextBlock Text="Country:" Margin="10" Foreground="White"/>
+            <ComboBox x:Name="cboCountry" Width="100" Height="30" Margin="5" SelectionChanged="filter"/>
+            <TextBlock Text="Department:" Margin="10" Foreground="White"/>
+            <ComboBox x:Name="cboDepartment" Width="120" Height="30" Margin="5" SelectionChanged="filter"/>
+            <Button Name="btnClearFilter" Content="Clear Filter" FontWeight="Bold" Click="ClearBtn_Click" 
+                Margin="5" Width="70" Background="LightGray"/>
+            <Button Name="btnAddStudent" Content="ADD STUDENT" Background="LightGreen" Width="100" 
+                Click="AddBtn_Click" FontWeight="Bold" Margin="5"/>
+            <Button Name="btnExport" Content="Export to Excel" FontWeight="Bold" Click="ExportBtn_Click" 
+                Margin="5" Width="120" Background="LightBlue" HorizontalAlignment="Right" Grid.Row="3"/>
+        </StackPanel>
+        <DataGrid IsReadOnly="True" Name="dgData" Grid.Row="2" AutoGenerateColumns="False"
+          CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,10"
+          EnableRowVirtualization="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="StudentID" Binding="{Binding Id}" Width="Auto"/>
+                <DataGridTextColumn Header="StudentName" Binding="{Binding Name}" Width="2*"/>
+                <DataGridTextColumn Header="BirthDate" Binding="{Binding Birthdate}" Width="*"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="*"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="2*"/>
+                <DataGridTextColumn Header="City" Binding="{Binding City}" Width="*"/>
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}" Width="*"/>
+                <DataGridTextColumn Header="Department" Binding="{Binding Department}" Width="2*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="3" Name="btnClose" Content="Close" Click="btnClose_Click" 
+            Margin="5" Height="40" Width="100" FontWeight="Bold" Background="LightGray"/>
+    </Grid>
+</Window>

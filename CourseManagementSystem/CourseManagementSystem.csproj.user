@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Course\AddAssessment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Course\AddCourse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Course\EditCourse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Course\ViewAssessment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Course\ViewCourseManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DepartmentManagement\Departments.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnrollmentManagement\AddEnrollment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnrollmentManagement\EditMark.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnrollmentManagement\EnrollmentManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SemeterManagement\AddSemester.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SemeterManagement\EditSemester.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SemeterManagement\SemesterManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentManagement\AddStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentManagement\ViewStudentManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Course\AddAssessment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Course\AddCourse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Course\EditCourse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Course\ViewAssessment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Course\ViewCourseManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DepartmentManagement\Departments.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnrollmentManagement\AddEnrollment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnrollmentManagement\EditMark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnrollmentManagement\EnrollmentManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SemeterManagement\AddSemester.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SemeterManagement\EditSemester.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SemeterManagement\SemesterManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentManagement\AddStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentManagement\ViewStudentManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\appsettings.json
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\Services.deps.json
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\Services.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\Services.pdb
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\BusinessObjects.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\Repositories.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\Repositories.pdb
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\Services.pdb
+D:\Microsoft Visual Studio\CourseManagementProject\CourseManagementSystem\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\appsettings.json
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\Services.deps.json
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\Services.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\Services.pdb
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\BusinessObjects.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\Repositories.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\Repositories.pdb
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\Services.pdb
+D:\Course-Management-main\Course-Management-main\CourseManagementSystem\Services\obj\Debug\net8.0\ref\Services.dll
