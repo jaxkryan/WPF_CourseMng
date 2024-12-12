@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\WPF_CourseMng\\CourseManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\studentmanagement\\viewstudentmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:studentmanagement\\viewstudentmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\studentmanagement\\viewstudentmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:studentmanagement\\viewstudentmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\studentmanagement\\addstudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -33,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,20 +49,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ViewStudentManagement.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml.cs",
               "RelativeDocumentMoniker": "StudentManagement\\ViewStudentManagement.xaml.cs",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml.cs",
               "RelativeToolTip": "StudentManagement\\ViewStudentManagement.xaml.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAIwKgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAcwCkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:23:45.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Login.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
@@ -74,14 +74,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ViewStudentManagement.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml",
               "RelativeDocumentMoniker": "StudentManagement\\ViewStudentManagement.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml",
               "RelativeToolTip": "StudentManagement\\ViewStudentManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T01:22:28.056Z"
+              "WhenOpened": "2024-12-12T01:22:28.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
