@@ -24,6 +24,14 @@ namespace CourseManagementSystem.DepartmentManagement
         {
             _context.Database.EnsureCreated(); // Ensure DB exists
             var departmentList = _context.Departments.ToList();
+            foreach (var dept in departmentList)
+            {
+                if (dept.Status == 0)
+                {
+                    dept.Name += " (Deleted)";
+                    dept.Code += " (Deleted)";
+                }
+            }
             _departments = new ObservableCollection<Department>(departmentList);
             dgDepartments.ItemsSource = _departments;
         }

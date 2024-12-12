@@ -32,6 +32,8 @@ namespace CourseManagementSystem.DepartmentManagement
         {
             string code = txtCode.Text;
             string name = txtName.Text;
+            string statusText = cmbStatus.SelectedItem.ToString();
+            int status = statusText == "Active" ? 1 : 0;
 
             // Validation: Required fields
             if (string.IsNullOrWhiteSpace(code) || string.IsNullOrWhiteSpace(name))
@@ -55,15 +57,17 @@ namespace CourseManagementSystem.DepartmentManagement
             }
 
             // Validation: Check if the code is being changed to an already existing code
-            if (_context.Departments.Any(d => d.Code == code && d.Code != _departmentToEdit.Code))
+            if (_context.Departments.Any(d => d.Code == code && d.Code != _departmentToEdit.Code && d.Status == 1))
             {
-                MessageBox.Show("The department code already exists in the database.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("The department code already exists in the database and is active.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+
 
             // Update department details
             _departmentToEdit.Code = code;
             _departmentToEdit.Name = name;
+            _departmentToEdit.Status = status;
 
             // Save changes to the database
             _context.Departments.Update(_departmentToEdit);
