@@ -7,89 +7,111 @@
         mc:Ignorable="d"
         Title="AddStudent" Height="550" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
-       
-        <Style x:Key="LabelStyle" TargetType="Label">
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
+        <!-- Shared Brush for Orange Theme -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#FF9C5400"/>
+        <!-- Orange -->
+        <SolidColorBrush x:Key="ButtonHoverColor" Color="#FFD37C00"/>
+
+        <!-- TextBox Style -->
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
 
- 
-        <Style x:Key="TextBoxStyle" TargetType="TextBox">
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
+        <!-- DatePicker Style -->
+        <Style TargetType="DatePicker">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
 
-      
-        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
+        <!-- ComboBox Style -->
+        <Style TargetType="ComboBox">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
 
-    
-        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
+        <!-- Label Style -->
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
         </Style>
 
-      
-        <Style x:Key="ButtonStyle" TargetType="Button">
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource ButtonHoverColor}"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
-    <Grid Margin="20">
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="40.04"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="278">
+            <Label Content="Add New Student" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="30,20,30,20" Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-        
-        <Label Content="ADD STUDENT" Foreground="Red" HorizontalAlignment="Center" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" FontWeight="Bold" Margin="0,10,0,20"/>
+                <Label Content="Student Name:" Grid.Row="0" Grid.Column="0"/>
+                <TextBox x:Name="txtName" Grid.Row="0" Grid.Column="1"/>
 
-     
-        <Label Content="Student Name:" Grid.Row="1" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+                <Label Content="Birthdate:" Grid.Row="1" Grid.Column="0"/>
+                <DatePicker x:Name="txtBirthDate" Grid.Row="1" Grid.Column="1"/>
 
-        <Label Content="Birthdate:" Grid.Row="2" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <DatePicker x:Name="txtBirthDate"  Grid.Row="2" Grid.Column="1" Style="{StaticResource DatePickerStyle}"/>
+                <Label Content="Gender:" Grid.Row="2" Grid.Column="0"/>
+                <ComboBox x:Name="cboGender" Grid.Row="2" Grid.Column="1"/>
 
-        <Label Content="Gender:" Grid.Row="3" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <ComboBox x:Name="cboGender" Grid.Row="3" Grid.Column="1" Style="{StaticResource ComboBoxStyle}"/>
+                <Label Content="Address:" Grid.Row="3" Grid.Column="0"/>
+                <TextBox x:Name="txtAddress" Grid.Row="3" Grid.Column="1"/>
 
-        <Label Content="Address:" Grid.Row="4" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <TextBox x:Name="txtAddress" Grid.Row="4" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+                <Label Content="City:" Grid.Row="4" Grid.Column="0"/>
+                <TextBox x:Name="txtCity" Grid.Row="4" Grid.Column="1"/>
 
-        <Label Content="City:" Grid.Row="5" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <TextBox x:Name="txtCity" Grid.Row="5" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+                <Label Content="Country:" Grid.Row="5" Grid.Column="0"/>
+                <ComboBox x:Name="cboCountry" Grid.Row="5" Grid.Column="1"/>
 
-        <Label Content="Country:" Grid.Row="6" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <ComboBox x:Name="cboCountry" Grid.Row="6" Grid.Column="1" Style="{StaticResource ComboBoxStyle}"/>
-
-        <Label Content="Department:" Grid.Row="7" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
-        <ComboBox x:Name="cboDepartment" Grid.Row="7" Grid.Column="1" Style="{StaticResource ComboBoxStyle}"/>
-
-
-        <Button Content="Add Student" Background="LightGreen" Grid.Row="8" Grid.ColumnSpan="2" Style="{StaticResource ButtonStyle}" Click="AddBtn_Click"/>
+                <Label Content="Department:" Grid.Row="6" Grid.Column="0"/>
+                <ComboBox x:Name="cboDepartment" Grid.Row="6" Grid.Column="1"/>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Height="50" Width="198">
+                <Button x:Name="btnAdd" Content="Add Student" Click="AddBtn_Click" Width="90"/>
+                <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click" Background="#FF9C5499" Width="90"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

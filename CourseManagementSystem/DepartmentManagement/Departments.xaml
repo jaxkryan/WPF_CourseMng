@@ -44,7 +44,7 @@
         </Grid.RowDefinitions>
 
         <Label Content="DEPARTMENT MANAGEMENT" 
-               Foreground="Red" 
+               Foreground="White" 
                FontSize="25" 
                FontWeight="Bold" 
                HorizontalAlignment="Center"
@@ -63,7 +63,7 @@
                   CanUserAddRows="False" 
                   CanUserDeleteRows="False" 
                   IsReadOnly="True" 
-                  Margin="0,0,0,10">
+                  Margin="10,0,10,10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="*"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>

@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="SemesterManagement" Height="600" Width="1020" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
+        <Style TargetType="Button" x:Key="StyledButton">
+            <Setter Property="Background" Value="#FFA500"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF8C00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF4500"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
 
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14"/>
@@ -26,16 +43,15 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="SEMESTER MANAGEMENT" Foreground="Red" Margin="0,0,0,9" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Label Grid.Row="0" Content="SEMESTER MANAGEMENT" Foreground="White" Margin="0,0,0,20" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1" Margin="10,10,0,10">
             <Label Content="Filter by Year" Margin="10" Foreground="White"/>
-            <ComboBox x:Name="YearComboBox" Width="60"  Height="25" Margin="10,0" SelectionChanged="YearComboBox_SelectionChanged"/>
-            <Button Name="btnClearFilter" Content="Clear Filter" FontWeight="Bold" Click="btnClearFilter_Click" Margin="5" Width="70" Height="25"/>
-            <Button x:Name="Add" Content="Add" Width="70" Height="25" Background="LightGreen" Margin="10,0" Click="Add_Click"/>
-            <Button x:Name="Edit" Content="Edit" Click="Edit_Click" Width="70" Height="25" Background="LightBlue"  />
+            <ComboBox x:Name="YearComboBox" Width="60" Height="25" Margin="10,0" SelectionChanged="YearComboBox_SelectionChanged"/>
+            <Button Name="btnClearFilter" Content="Clear Filter" Style="{StaticResource StyledButton}" Width="100" Click="btnClearFilter_Click"/>
+            <Button x:Name="Add" Content="Add" Style="{StaticResource StyledButton}" Width="100" Click="Add_Click"/>
+            <Button x:Name="Edit" Content="Edit" Style="{StaticResource StyledButton}" Width="100" Click="Edit_Click"/>
         </StackPanel>
-        <Button Grid.Row="3" Name="btnClose" Content="Close" Click="btnClose_Click" Margin="5" Height="40" Width="100" FontWeight="Bold"/>
-        <DataGrid IsReadOnly="True" Name="dgSemester" Grid.Row="2" Grid.Column="1" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,10">
+        <DataGrid IsReadOnly="True" Name="dgSemester" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,51">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="*"/>
@@ -44,5 +60,6 @@
                 <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="120"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Grid.Row="2" Name="btnClose" Content="Close"  Width="100" Click="btnClose_Click" Margin="460,425,460,10"/>
     </Grid>
 </Window>

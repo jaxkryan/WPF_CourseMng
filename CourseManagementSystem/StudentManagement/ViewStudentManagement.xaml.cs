@@ -138,7 +138,7 @@ namespace CourseManagementSystem.StudentManagement
                     }
 
                     // Add data from the underlying data source
-                    var itemsSource = dgData.ItemsSource as IEnumerable<Student>; // Replace Student with your model
+                    var itemsSource = dgData.ItemsSource as IEnumerable<Student>;
                     int row = 2;
                     foreach (var item in itemsSource)
                     {

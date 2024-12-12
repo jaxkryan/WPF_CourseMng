@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\WPF_CourseMng\\CourseManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\enrollmentmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\enrollmentmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\addenrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\addenrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\editmark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\editmark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\enrollmentmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\enrollmentmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\semetermanagement\\editsemester.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:semetermanagement\\editsemester.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\semetermanagement\\addsemester.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:semetermanagement\\addsemester.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\departmentmanagement\\adddepartmentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:departmentmanagement\\adddepartmentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,24 +35,20 @@
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:departmentmanagement\\editdepartmentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\editmark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\editmark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\course\\addassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:course\\addassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\departmentmanagement\\editdepartmentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:departmentmanagement\\editdepartmentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\course\\editassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:course\\editassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\editmark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\editmark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\enrollmentmanagement\\addenrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:enrollmentmanagement\\addenrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\course\\addassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|solutionrelative:course\\addassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C53E60A-5306-4BB5-A2F9-2ADF0CF750B2}|CourseManagementSystem.csproj|d:\\wpf_coursemng\\coursemanagementsystem\\course\\addcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,7 +125,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,6 +142,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EditSemester.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\SemeterManagement\\EditSemester.xaml",
+              "RelativeDocumentMoniker": "SemeterManagement\\EditSemester.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\SemeterManagement\\EditSemester.xaml",
+              "RelativeToolTip": "SemeterManagement\\EditSemester.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T14:33:27.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentManagement.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EnrollmentManagement.xaml",
+              "RelativeDocumentMoniker": "EnrollmentManagement\\EnrollmentManagement.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EnrollmentManagement.xaml",
+              "RelativeToolTip": "EnrollmentManagement\\EnrollmentManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T14:17:08.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnrollmentManagement.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EnrollmentManagement.xaml.cs",
+              "RelativeDocumentMoniker": "EnrollmentManagement\\EnrollmentManagement.xaml.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EnrollmentManagement.xaml.cs",
+              "RelativeToolTip": "EnrollmentManagement\\EnrollmentManagement.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:18:17.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EditMark.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EditMark.xaml",
               "RelativeDocumentMoniker": "EnrollmentManagement\\EditMark.xaml",
@@ -134,6 +191,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AddEnrollment.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\AddEnrollment.xaml",
+              "RelativeDocumentMoniker": "EnrollmentManagement\\AddEnrollment.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\AddEnrollment.xaml",
+              "RelativeToolTip": "EnrollmentManagement\\AddEnrollment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T13:39:38.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddSemester.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\SemeterManagement\\AddSemester.xaml",
+              "RelativeDocumentMoniker": "SemeterManagement\\AddSemester.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\SemeterManagement\\AddSemester.xaml",
+              "RelativeToolTip": "SemeterManagement\\AddSemester.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T14:31:15.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EditDepartmentWindow.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\EditDepartmentWindow.xaml",
               "RelativeDocumentMoniker": "DepartmentManagement\\EditDepartmentWindow.xaml",
@@ -145,19 +226,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditAssessment.xaml",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditAssessment.xaml",
-              "RelativeDocumentMoniker": "Course\\EditAssessment.xaml",
-              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditAssessment.xaml",
-              "RelativeToolTip": "Course\\EditAssessment.xaml",
+              "DocumentIndex": 6,
+              "Title": "AddDepartmentWindow.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\AddDepartmentWindow.xaml",
+              "RelativeDocumentMoniker": "DepartmentManagement\\AddDepartmentWindow.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\AddDepartmentWindow.xaml",
+              "RelativeToolTip": "DepartmentManagement\\AddDepartmentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T12:10:49.562Z",
+              "WhenOpened": "2024-12-12T13:15:33.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "EditMark.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EditMark.xaml.cs",
+              "RelativeDocumentMoniker": "EnrollmentManagement\\EditMark.xaml.cs",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\EditMark.xaml.cs",
+              "RelativeToolTip": "EnrollmentManagement\\EditMark.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:18:14.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddAssessment.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddAssessment.xaml",
+              "RelativeDocumentMoniker": "Course\\AddAssessment.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddAssessment.xaml",
+              "RelativeToolTip": "Course\\AddAssessment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T12:05:38.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EditDepartmentWindow.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\EditDepartmentWindow.xaml.cs",
               "RelativeDocumentMoniker": "DepartmentManagement\\EditDepartmentWindow.xaml.cs",
@@ -170,43 +276,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddDepartmentWindow.xaml",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\AddDepartmentWindow.xaml",
-              "RelativeDocumentMoniker": "DepartmentManagement\\AddDepartmentWindow.xaml",
-              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\AddDepartmentWindow.xaml*",
-              "RelativeToolTip": "DepartmentManagement\\AddDepartmentWindow.xaml*",
+              "DocumentIndex": 11,
+              "Title": "EditAssessment.xaml",
+              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditAssessment.xaml",
+              "RelativeDocumentMoniker": "Course\\EditAssessment.xaml",
+              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditAssessment.xaml",
+              "RelativeToolTip": "Course\\EditAssessment.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T13:15:33.046Z",
+              "WhenOpened": "2024-12-12T12:10:49.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEnrollment.xaml",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\AddEnrollment.xaml",
-              "RelativeDocumentMoniker": "EnrollmentManagement\\AddEnrollment.xaml",
-              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\EnrollmentManagement\\AddEnrollment.xaml",
-              "RelativeToolTip": "EnrollmentManagement\\AddEnrollment.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T13:39:38.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddAssessment.xaml",
-              "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddAssessment.xaml",
-              "RelativeDocumentMoniker": "Course\\AddAssessment.xaml",
-              "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddAssessment.xaml",
-              "RelativeToolTip": "Course\\AddAssessment.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T12:05:38.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AddCourse.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddCourse.xaml.cs",
               "RelativeDocumentMoniker": "Course\\AddCourse.xaml.cs",
@@ -219,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Departments.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\Departments.xaml.cs",
               "RelativeDocumentMoniker": "DepartmentManagement\\Departments.xaml.cs",
@@ -231,18 +313,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Departments.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\Departments.xaml",
               "RelativeDocumentMoniker": "DepartmentManagement\\Departments.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\Departments.xaml",
               "RelativeToolTip": "DepartmentManagement\\Departments.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T13:07:31.622Z"
+              "WhenOpened": "2024-12-12T13:07:31.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "AddDepartmentWindow.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\DepartmentManagement\\AddDepartmentWindow.xaml.cs",
               "RelativeDocumentMoniker": "DepartmentManagement\\AddDepartmentWindow.xaml.cs",
@@ -254,18 +337,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "EditCourse.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditCourse.xaml",
               "RelativeDocumentMoniker": "Course\\EditCourse.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditCourse.xaml",
               "RelativeToolTip": "Course\\EditCourse.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T12:17:44.623Z"
+              "WhenOpened": "2024-12-12T12:17:44.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ViewAssessment.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\ViewAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Course\\ViewAssessment.xaml.cs",
@@ -277,18 +361,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "AddCourse.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddCourse.xaml",
               "RelativeDocumentMoniker": "Course\\AddCourse.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\AddCourse.xaml",
               "RelativeToolTip": "Course\\AddCourse.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T12:08:31.128Z"
+              "WhenOpened": "2024-12-12T12:08:31.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CourseManagementDbContext.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\DataAccessLayer\\CourseManagementDbContext.cs",
               "RelativeDocumentMoniker": "..\\DataAccessLayer\\CourseManagementDbContext.cs",
@@ -300,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\BusinessObjects\\Department.cs",
               "RelativeDocumentMoniker": "..\\BusinessObjects\\Department.cs",
@@ -312,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "AddStudent.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\AddStudent.xaml.cs",
               "RelativeDocumentMoniker": "StudentManagement\\AddStudent.xaml.cs",
@@ -324,18 +409,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ViewCourseManage.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\ViewCourseManage.xaml",
               "RelativeDocumentMoniker": "Course\\ViewCourseManage.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\ViewCourseManage.xaml",
               "RelativeToolTip": "Course\\ViewCourseManage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T12:41:03.265Z"
+              "WhenOpened": "2024-12-12T12:41:03.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ViewAssessment.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\ViewAssessment.xaml",
               "RelativeDocumentMoniker": "Course\\ViewAssessment.xaml",
@@ -346,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "EditAssessment.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\Course\\EditAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Course\\EditAssessment.xaml.cs",
@@ -358,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Semester.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\BusinessObjects\\Semester.cs",
               "RelativeDocumentMoniker": "..\\BusinessObjects\\Semester.cs",
@@ -370,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\BusinessObjects\\Student.cs",
               "RelativeDocumentMoniker": "..\\BusinessObjects\\Student.cs",
@@ -382,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "dbo.Students.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/CourseManagementDB/True/SqlTable/dbo.Students.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_OF804LR_VE_SERVER/CourseManagementDB/True/SqlTable/dbo.Students.sql",
@@ -391,18 +477,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "ViewStudentManagement.xaml",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml",
               "RelativeDocumentMoniker": "StudentManagement\\ViewStudentManagement.xaml",
               "ToolTip": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml",
               "RelativeToolTip": "StudentManagement\\ViewStudentManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T03:12:56.406Z"
+              "WhenOpened": "2024-12-12T03:12:56.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "ViewStudentManagement.xaml.cs",
               "DocumentMoniker": "D:\\WPF_CourseMng\\CourseManagementSystem\\StudentManagement\\ViewStudentManagement.xaml.cs",
               "RelativeDocumentMoniker": "StudentManagement\\ViewStudentManagement.xaml.cs",

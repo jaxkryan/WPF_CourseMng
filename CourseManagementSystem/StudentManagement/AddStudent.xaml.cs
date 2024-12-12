@@ -123,5 +123,10 @@ namespace CourseManagementSystem.StudentManagement
             Regex regex = new Regex(@"^[a-zA-Z0-9 ]+$");
             return regex.IsMatch(input);
         }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

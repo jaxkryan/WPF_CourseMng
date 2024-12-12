@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="ViewStudentManagement" Height="650" Width="1250" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
+        <Style TargetType="Button" x:Key="StyledButton">
+            <Setter Property="Background" Value="#FFA500"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF8C00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF4500"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="ColumnHeaderHeight" Value="40"/>
@@ -17,7 +35,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="\Image\DHFPT6-1.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="\Image\DHFPT6-1.jpg" Stretch="UniformToFill" />
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -26,7 +44,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="STUDENT MANAGEMENT" Foreground="Red" Margin="0,0,0,9" FontSize="25" 
+        <Label Grid.Row="0" Content="STUDENT MANAGEMENT" Foreground="White" Margin="0,0,0,9" FontSize="25" 
            HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="10,10,0,10">
             <TextBlock Text="Search:" Margin="10" Foreground="White"/>
@@ -39,7 +57,7 @@
             <ComboBox x:Name="cboDepartment" Width="120" Height="30" Margin="5" SelectionChanged="filter"/>
             <Button Name="btnClearFilter" Content="Clear Filter" FontWeight="Bold" Click="ClearBtn_Click" 
                 Margin="5" Width="70" Background="LightGray"/>
-            <Button Name="btnAddStudent" Content="ADD STUDENT" Background="LightGreen" Width="100" 
+            <Button Name="btnAddStudent" Content="Add student" Width="100" Style="{StaticResource StyledButton}"
                 Click="AddBtn_Click" FontWeight="Bold" Margin="5"/>
             <Button Name="btnExport" Content="Export to Excel" FontWeight="Bold" Click="ExportBtn_Click" 
                 Margin="5" Width="120" Background="LightBlue" HorizontalAlignment="Right" Grid.Row="3"/>
@@ -50,9 +68,9 @@
           CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,10"
           EnableRowVirtualization="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="StudentID" Binding="{Binding Id}" Width="Auto"/>
-                <DataGridTextColumn Header="StudentName" Binding="{Binding Name}" Width="2*"/>
-                <DataGridTextColumn Header="BirthDate" Binding="{Binding Birthdate}" Width="*"/>
+                <DataGridTextColumn Header="Student ID" Binding="{Binding Id}" Width="Auto"/>
+                <DataGridTextColumn Header="Student Name" Binding="{Binding Name}" Width="2*"/>
+                <DataGridTextColumn Header="Birth Date" Binding="{Binding Birthdate}" Width="*"/>
                 <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="*"/>
                 <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="2*"/>
                 <DataGridTextColumn Header="City" Binding="{Binding City}" Width="*"/>
