@@ -52,7 +52,7 @@
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
                 <TextBlock Text="Welcome to the Course Management System" FontSize="22" FontWeight="SemiBold" Foreground="#666" TextAlignment="Center" Margin="10"/>
                 <TextBlock Text="Manage your courses, students, departments, semesters, and enrollments easily." FontSize="14" Foreground="#666" TextAlignment="Center" Margin="10"/>
-                <Image Source="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Width="500" Height="200" Margin="10"/>
+                <Image Source="Image/DHFPT6-1.jpg" Width="500" Height="200" Margin="10"/>
             </StackPanel>
         </Grid>
     </DockPanel>
