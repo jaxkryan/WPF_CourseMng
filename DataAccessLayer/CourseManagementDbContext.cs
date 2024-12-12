@@ -204,7 +204,6 @@ public partial class CourseManagementDbContext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__Students__3213E83F48A7B1CE");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.Address)
                 .HasMaxLength(100)

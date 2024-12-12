@@ -2,6 +2,7 @@
 
 FD:\WPF_CourseMng\CourseManagementSystem\Course\AddAssessment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\AddCourse.xaml;;
+FD:\WPF_CourseMng\CourseManagementSystem\Course\EditAssessment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\EditCourse.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\ViewAssessment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\ViewCourseManage.xaml;;
@@ -16,5 +17,4 @@ FD:\WPF_CourseMng\CourseManagementSystem\SemeterManagement\EditSemester.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\SemeterManagement\SemesterManagement.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\StudentManagement\AddStudent.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\StudentManagement\ViewStudentManagement.xaml;;
-FD:\WPF_CourseMng\CourseManagementSystem\Course\EditAssessment.xaml;;
 

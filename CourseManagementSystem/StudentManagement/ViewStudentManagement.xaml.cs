@@ -207,14 +207,13 @@ namespace CourseManagementSystem.StudentManagement
                                 Student student = new Student
                                 {
                                     Name = row[1]?.ToString(),
-                                    Birthdate = DateOnly.TryParseExact(row[2]?.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateOnly birthDate) ? birthDate : null,
+                                    Birthdate = DateOnly.Parse(row[2]?.ToString().Split(' ')[0]),
                                     Gender = row[3]?.ToString(),
                                     Address = row[4]?.ToString(),
                                     City = row[5]?.ToString(),
                                     Country = row[6]?.ToString(),
                                     Department = row[7]?.ToString()
                                 };
-
                                 context.Students.Add(student);
                             }
                             context.SaveChanges();
@@ -228,7 +227,10 @@ namespace CourseManagementSystem.StudentManagement
                     }
                 }
             }
+
+
+
         }
     }
-    }
+}
 
