@@ -554,3 +554,5 @@ D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\refint\CourseMa
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\CourseManagementSystem.pdb
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\CourseManagementSystem.genruntimeconfig.cache
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\ref\CourseManagementSystem.dll
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\Course\EditAssessment.g.cs
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\Course\EditAssessment.baml

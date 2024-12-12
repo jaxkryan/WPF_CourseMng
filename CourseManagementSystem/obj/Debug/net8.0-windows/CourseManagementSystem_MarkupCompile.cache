@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\WPF_CourseMng\CourseManagementSystem\App.xaml
-16-1545973563
+17-544348217
 1-750129556
-21-382326431
+22231566547
 252-1365602365
-Course\AddAssessment.xaml;Course\AddCourse.xaml;Course\EditCourse.xaml;Course\ViewAssessment.xaml;Course\ViewCourseManage.xaml;DepartmentManagement\Departments.xaml;EnrollmentManagement\AddEnrollment.xaml;EnrollmentManagement\EditMark.xaml;EnrollmentManagement\EnrollmentManagement.xaml;Home.xaml;Login.xaml;SemeterManagement\AddSemester.xaml;SemeterManagement\EditSemester.xaml;SemeterManagement\SemesterManagement.xaml;StudentManagement\AddStudent.xaml;StudentManagement\ViewStudentManagement.xaml;
+Course\AddAssessment.xaml;Course\AddCourse.xaml;Course\EditAssessment.xaml;Course\EditCourse.xaml;Course\ViewAssessment.xaml;Course\ViewCourseManage.xaml;DepartmentManagement\Departments.xaml;EnrollmentManagement\AddEnrollment.xaml;EnrollmentManagement\EditMark.xaml;EnrollmentManagement\EnrollmentManagement.xaml;Home.xaml;Login.xaml;SemeterManagement\AddSemester.xaml;SemeterManagement\EditSemester.xaml;SemeterManagement\SemesterManagement.xaml;StudentManagement\AddStudent.xaml;StudentManagement\ViewStudentManagement.xaml;
 
 False
 

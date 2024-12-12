@@ -37,7 +37,18 @@ namespace CourseManagementSystem.Course
         }
         private void btnEditAssessment_Click(object sender, RoutedEventArgs e)
         {
-
+            if (dgAssessments.SelectedItem is Assessment selectedAssessment)
+            {
+                var editAssessmentWindow = new EditAssessment(selectedAssessment.Id);
+                if (editAssessmentWindow.ShowDialog() == true)
+                {
+                    LoadAssessment();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select an assessment to edit.", "No Selection", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void btnAddAssessment_Click(object sender, RoutedEventArgs e)
