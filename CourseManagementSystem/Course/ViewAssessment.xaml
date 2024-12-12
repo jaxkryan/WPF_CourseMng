@@ -21,7 +21,7 @@
     </Window.Resources>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Image/DHFPT6-1.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
