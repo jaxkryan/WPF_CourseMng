@@ -80,8 +80,8 @@ CREATE TABLE [dbo].[semesters](
 GO
 
 CREATE TABLE [dbo].[Students](
-	[id] [int] NOT NULL primary key Identity,
-	[name] [varchar](50) NULL,
+	[id] [int] NOT NULL primary key,
+	[name] [nvarchar](50) NULL,
 	[birthdate] [date] NULL,
 	[gender] [varchar](10) NULL,
 	[address] [varchar](100) NULL,
@@ -122,26 +122,26 @@ INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUE
 INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUES (2, N'Staff', N'@staff123', 2)
 GO
 
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (1, N'CSI104', N'Introduction to Computer Science', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (3, N'ITA203c', N'Management information systems', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (1, N'SSL101c', N'SSL101c', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (3, N'PRF192', N'MProgramming Fundamentals', 4)
 INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (4, N'PMG202c', N'Project management', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (5, N'CSD201', N'Data Structures and Algorithms', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (6, N'CSD203', N'Data Structures and Algorithm with Python', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (7, N'CSD301', N'Advanced Algorithms', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (8, N'DBI202', N'Introduction to Databases', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (9, N'DBW301', N'Data warehouse', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (10, N'FER201m', N'Front-End web development with React', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (5, N'MAE101', N'Mathematics for Engineering', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (6, N'CEA201', N'Computer Organization and Architecture', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (7, N'CSI104', N'Introduction to Computer Science', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (8, N'PRO192', N'Object-Oriented Programming', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (9, N'MAD101', N'Discrete mathematics', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (10, N'OSG202', N'	Operating Systems', 3)
 INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (11, N'NWC203c', N'Computer Networking', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (12, N'OSG202', N'Operating Systems', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (13, N'PFP191', N'Programming Fundamentals with Python', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (14, N'ACC101', N'Principles of Accounting', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (15, N'ACC305', N'Financial Statement Analysis', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (16, N'ADS301m', N'Google Ads and Seo', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (17, N'BDI302c', N'Big Data', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (18, N'BDI201', N'Brand identity design', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (19, N'BRA301', N'Brand Management', 4)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (20, N'DTG111', N'Visual Design Tools 1', 3)
-INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (21, N'MCO201m', N'Transmedia Storytelling', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (12, N'SSG104', N'Communication and In-Group Working Skills', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (13, N'JPD113', N'Elementary Japanese 1-A1.1', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (14, N'CSD201', N'Data Structures and Algorithms', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (15, N'DBI202', N'Introduction to Databases', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (16, N'LAB211', N'OOP with Java Lab', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (17, N'WED201c', N'Web Design', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (18, N'MAS291', N'Statistics and Probability', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (19, N'JPD123', N'Elementary Japanese 1-A1.2', 4)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (20, N'IOT102', N'Internet vạn vật', 3)
+INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (21, N'PRJ301', N'Java Web Application Development', 3)
 GO
 
 INSERT [dbo].[Departments] ([Code], [Name]) VALUES (N'AI', N'Artificial Intelligence')
@@ -176,100 +176,107 @@ INSERT [dbo].[semesters] ([id], [code], [year], [beginDate], [endDate]) VALUES (
 INSERT [dbo].[semesters] ([id], [code], [year], [beginDate], [endDate]) VALUES (23, N'Fa2022', 2022, CAST(N'2022-09-01' AS Date), CAST(N'2022-11-30' AS Date))
 INSERT [dbo].[semesters] ([id], [code], [year], [beginDate], [endDate]) VALUES (24, N'Fa2022_B5', 2022, CAST(N'2022-12-01' AS Date), CAST(N'2022-12-31' AS Date))
 GO
-INSERT INTO [dbo].[Students] ([name], [birthdate], [gender], [address], [city], [country], [department])
-VALUES 
-('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),
-('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE'),('Alice Johnson', '2000-04-12', 'Female', '123 Elm St', 'New York', 'USA', 'AI'),
-('Bob Williams', '1999-06-25', 'Male', '456 Oak St', 'Los Angeles', 'USA', 'BA'),
-('Charlie Smith', '2001-01-15', 'Male', '789 Pine Ave', 'Chicago', 'USA', 'CS'),
-('Diana Clark', '2000-09-30', 'Female', '321 Maple Ln', 'Houston', 'USA', 'MC'),
-('Ethan Brown', '1998-12-05', 'Male', '654 Cedar Rd', 'Phoenix', 'USA', 'SE'),
-('Fiona Davis', '1997-03-18', 'Female', '987 Birch St', 'Boston', 'USA', 'AI'),
-('George Wilson', '1999-11-22', 'Male', '741 Walnut Ln', 'Seattle', 'USA', 'BA'),
-('Hannah Lee', '2002-02-14', 'Female', '852 Spruce Ave', 'San Francisco', 'USA', 'CS'),
-('Ian Miller', '2001-05-07', 'Male', '963 Cherry Rd', 'Dallas', 'USA', 'MC'),
-('Jasmine Nguyen', '1998-08-11', 'Female', '159 Ash St', 'San Diego', 'USA', 'SE');
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (1, N'Hoàng Thị Thuỳ Dung', CAST(N'2001-02-13' AS Date), N'Male', N'3351 Vehicula Rd.', N'586628', N'Italy', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (2, N'Phạm Ngọc Anh', CAST(N'1999-08-01' AS Date), N'Female', N'Ap 753-4202 Neque. St.', N'36426', N'Poland', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (3, N'Lê Minh Hiếu', CAST(N'2003-01-31' AS Date), N'Female', N'P.O. Box 752, 7469 Pretium St.', N'7851', N'Singapore', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (4, N'Trần Thị Mỹ Linh', CAST(N'2004-04-11' AS Date), N'Female', N'916-6531 Fringilla Avenue', N'167158', N'Nigeria', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (5, N'Nguyễn Văn Quân', CAST(N'2001-07-19' AS Date), N'Male', N'638-1242 Eu Rd.', N'6253', N'Indonesia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (6, N'Hoàng Thị Thuỳ Linh', CAST(N'2004-10-09' AS Date), N'Female', N'P.O. Box 105, 9573 Sem Rd.', N'1318', N'Russian Federation', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (7, N'Phạm Ngọc Anh', CAST(N'1995-03-16' AS Date), N'Female', N'Ap 525-3251 Feugiat. Rd.', N'86169-48149', N'Italy', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (8, N'Phạm Ngọc Anh', CAST(N'2000-07-10' AS Date), N'Female', N'523-8832 Nibh Rd.', N'22112', N'Sweden', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (9, N'Lê Minh Hoàng', CAST(N'1995-11-12' AS Date), N'Male', N'178-8874 Pede. St.', N'2852', N'Indonesia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (10, N'Nguyễn Văn Khánh', CAST(N'2002-05-13' AS Date), N'Female', N'Ap 150-8604 Magna St.', N'72-88', N'Ukraine', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (11, N'Hoàng Thị Thuỳ Dung', CAST(N'1999-03-23' AS Date), N'Female', N'Ap 506-7525 Neque. Rd.', N'GD3S 1JS', N'Colombia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (12, N'Phạm Ngọc Anh', CAST(N'1995-04-25' AS Date), N'Female', N'416-1470 Fermentum Avenue', N'93915', N'Singapore', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (13, N'Lê Minh Hiếu', CAST(N'1995-06-21' AS Date), N'Female', N'4491 Ut Road', N'736528', N'China', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (14, N'Trần Thị Mỹ Linh', CAST(N'2003-05-08' AS Date), N'Female', N'P.O. Box 194, 4779 Ligula Avenue', N'72766', N'Norway', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (15, N'Nguyễn Văn Quân', CAST(N'1995-02-13' AS Date), N'Male', N'Ap 251-1720 Enim Road', N'85830', N'Australia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (16, N'Hoàng Thị Thuỳ Dung', CAST(N'1996-05-14' AS Date), N'Female', N'Ap 971-4660 Elit Rd.', N'601348', N'China', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (17, N'Phạm Ngọc Anh', CAST(N'1997-08-22' AS Date), N'Male', N'P.O. Box 715, 6621 Purus St.', N'67227', N'Indonesia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (18, N'Nguyễn Văn Khánh', CAST(N'1999-04-29' AS Date), N'Male', N'737-2770 Placerat Rd.', N'527348', N'Germany', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (19, N'Phạm Ngọc Anh', CAST(N'1999-10-25' AS Date), N'Female', N'826-1650 Vel Avenue', N'37834', N'Germany', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (20, N'Hoàng Thị Thuỳ Dung', CAST(N'1996-05-15' AS Date), N'Male', N'Ap 113-2193 Eu St.', N'96651-25843', N'South Africa', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (21, N'Hoàng Thị Thuỳ Dung', CAST(N'2001-05-02' AS Date), N'Female', N'Ap 213-2031 Pretium Road', N'0558', N'Mexico', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (22, N'Trần Thị Thuỳ Linh', CAST(N'1997-09-09' AS Date), N'Female', N'8451 Cursus. St.', N'72677', N'South Korea', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (23, N'Lê Minh Hiếu', CAST(N'2001-11-26' AS Date), N'Female', N'650-8974 Orci Avenue', N'0566-0653', N'Austria', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (24, N'Phạm Ngọc Anh', CAST(N'1995-12-21' AS Date), N'Male', N'629-4067 Magnis St.', N'249773', N'Chile', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (25, N'Nguyễn Văn Khánh', CAST(N'1998-01-21' AS Date), N'Male', N'167-9378 Eget Ave', N'167775', N'Brazil', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (26, N'Lê Minh Hiếu', CAST(N'2002-04-03' AS Date), N'Female', N'836-730 At, Street', N'75-95', N'Netherlands', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (27, N'Phạm Ngọc Anh', CAST(N'1997-05-11' AS Date), N'Male', N'Ap 384-6514 Malesuada Rd.', N'31581701', N'Belgium', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (28, N'Hoàng Thị Thuỳ Dung', CAST(N'2001-08-22' AS Date), N'Female', N'P.O. Box 604, 3716 Semper Ave', N'58214', N'Vietnam', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (29, N'Phạm Ngọc Anh', CAST(N'1995-12-18' AS Date), N'Female', N'Ap 609-7017 Nulla Road', N'951583', N'Pakistan', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (30, N'Lê Minh Hiếu', CAST(N'1998-12-25' AS Date), N'Male', N'Ap 934-8670 Lorem St.', N'279183', N'Belgium', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (31, N'Trần Thị Mỹ Linh', CAST(N'1998-11-08' AS Date), N'Male', N'500-4991 Molestie St.', N'6761 RY', N'Sweden', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (32, N'Nguyễn Văn Quân', CAST(N'2000-05-20' AS Date), N'Female', N'428-9401 Enim Av.', N'333500', N'Colombia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (33, N'Hoàng Thị Thuỳ Dung', CAST(N'1997-04-20' AS Date), N'Male', N'632-6623 Curabitur Rd.', N'89080', N'Sweden', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (34, N'Hoàng Thị Thuỳ Dung', CAST(N'1998-10-07' AS Date), N'Male', N'Ap 180-4564 Odio. Avenue', N'414287', N'United Kingdom', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (35, N'Phạm Ngọc Anh', CAST(N'2002-06-21' AS Date), N'Male', N'P.O. Box 476, 6829 Morbi Avenue', N'426426', N'United States', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (36, N'Lê Minh Hoàng', CAST(N'1999-04-17' AS Date), N'Female', N'742-5552 Tortor Ave', N'15958', N'Colombia', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (37, N'Lê Minh Hoàng', CAST(N'1996-08-23' AS Date), N'Female', N'P.O. Box 403, 9524 Malesuada Road', N'25588', N'Philippines', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (38, N'Hoàng Thị Thuỳ Dung', CAST(N'1996-06-18' AS Date), N'Male', N'384-6560 Aenean Ave', N'174485', N'Belgium', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (39, N'Phạm Ngọc Anhs', CAST(N'1996-04-02' AS Date), N'Female', N'Ap 891-7441 Mi. Rd.', N'82412', N'Russian Federation', N'SE')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (40, N'Ngọc Anh', CAST(N'2001-04-25' AS Date), N'Male', N'P.O. Box 438, 572 Vulputate, Avenue', N'77-16', N'Nigeria', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (41, N'Phạm Ngọc Anh', CAST(N'1997-03-13' AS Date), N'Female', N'Ap 343-6688 Sociis Rd.', N'60315', N'United Kingdom', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (42, N'Mai Anh', CAST(N'1997-07-20' AS Date), N'Female', N'940-9596 Sed Street', N'78-34', N'Colombia', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (43, N'Khánh Duy', CAST(N'2003-05-21' AS Date), N'Female', N'P.O. Box 283, 9961 Orci, St.', N'74787', N'Chile', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (44, N'Minh Nhật', CAST(N'2004-05-20' AS Date), N'Female', N'404-5076 Molestie Road', N'121276', N'Poland', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (45, N'Minh Nhật', CAST(N'2002-06-25' AS Date), N'Male', N'Ap 123-2416 Purus. Rd.', N'24410-217', N'Ireland', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (46, N'Nhật Anh', CAST(N'1998-12-05' AS Date), N'Female', N'Ap 759-3049 Vestibulum. Rd.', N'22453', N'Russian Federation', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (47, N'Nhật Anh', CAST(N'1998-10-27' AS Date), N'Male', N'Ap 521-7510 A Rd.', N'92585', N'Mexico', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (48, N'Khánh Huyền', CAST(N'2004-05-23' AS Date), N'Male', N'Ap 387-372 Magna Rd.', N'54111', N'Belgium', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (49, N'Huy Hoàng', CAST(N'1995-02-06' AS Date), N'Male', N'Ap 356-8787 Arcu. Street', N'25556', N'Philippines', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (50, N'Thanh Hà', CAST(N'2003-05-18' AS Date), N'Male', N'893-8817 Nibh. Rd.', N'1329', N'South Korea', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (51, N'Việt Hoàng', CAST(N'1995-07-04' AS Date), N'Female', N'8868 Eget St.', N'776526', N'United Kingdom', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (52, N'Anh Tuấn', CAST(N'2004-12-22' AS Date), N'Male', N'240-8529 Consectetuer, Avenue', N'152667', N'Sweden', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (53, N'Minh Khuê', CAST(N'1995-01-14' AS Date), N'Female', N'594-2442 Lorem Rd.', N'74-52', N'Belgium', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (54, N'Quang Huy', CAST(N'1997-01-08' AS Date), N'Female', N'Ap 602-8502 Et Ave', N'66457-87538', N'Spain', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (55, N'Thanh Hà', CAST(N'1996-03-30' AS Date), N'Male', N'7301 Enim, Rd.', N'349547', N'Austria', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (56, N'Quang Huy', CAST(N'1999-07-10' AS Date), N'Female', N'Ap 461-2861 Parturient Rd.', N'93466', N'China', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (57, N'Đức Anh', CAST(N'2002-06-19' AS Date), N'Male', N'Ap 201-6320 Lorem Road', N'742671', N'Netherlands', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (58, N'Bảo Khánh', CAST(N'2004-03-17' AS Date), N'Male', N'617-1328 Malesuada Rd.', N'58-73', N'South Africa', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (59, N'Quang Huy', CAST(N'2001-12-26' AS Date), N'Male', N'Ap 647-527 Id, Ave', N'87460', N'Spain', N'CS')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (60, N'Anh Tuấn', CAST(N'2004-11-17' AS Date), N'Male', N'P.O. Box 407, 4441 Vitae Rd.', N'98123', N'China', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (61, N'Việt Hoàng', CAST(N'2001-10-07' AS Date), N'Male', N'P.O. Box 107, 319 Duis Street', N'F1 0FU', N'Turkey', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (62, N'Thanh Hà', CAST(N'2000-08-05' AS Date), N'Male', N'Ap 423-7008 Euismod Ave', N'19417', N'Canada', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (63, N'Thanh Hà', CAST(N'1995-04-26' AS Date), N'Female', N'Ap 365-5951 Gravida Avenue', N'84545-70247', N'Turkey', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (64, N'Nguyễn Văn Khánh', CAST(N'1999-06-16' AS Date), N'Female', N'6484 A Avenue', N'78326', N'Sweden', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (65, N'Nguyễn Văn Khánh', CAST(N'2000-11-06' AS Date), N'Male', N'Ap 228-8549 Sem St.', N'4726', N'United Kingdom', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (66, N'Khánh Huyền', CAST(N'2004-11-22' AS Date), N'Female', N'P.O. Box 892, 3585 Quisque Street', N'973720', N'Ireland', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (67, N'Diễm Hương', CAST(N'2001-09-20' AS Date), N'Male', N'705-8377 Convallis Street', N'24604', N'United Kingdom', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (68, N'Diệu Linh', CAST(N'1996-08-02' AS Date), N'Female', N'Ap 326-3377 Dui. St.', N'99759', N'Brazil', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (69, N'Minh Khuê', CAST(N'2002-03-09' AS Date), N'Male', N'P.O. Box 762, 5091 A Ave', N'721394', N'Norway', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (70, N'Thanh Hà', CAST(N'2001-08-25' AS Date), N'Male', N'325-2437 Ipsum. Avenue', N'15355', N'South Korea', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (71, N'Diệu Linh', CAST(N'2001-07-14' AS Date), N'Female', N'6188 Donec Avenue', N'84807', N'South Korea', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (72, N'Đức Anh', CAST(N'1997-03-30' AS Date), N'Male', N'Ap 128-4926 Auctor. Rd.', N'666130', N'Turkey', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (73, N'Phạm Ngọc Anh', CAST(N'2000-03-31' AS Date), N'Male', N'452-9037 Mi Rd.', N'L45 9MK', N'Norway', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (74, N'Đức Anh', CAST(N'1996-07-14' AS Date), N'Male', N'758 Sit Avenue', N'29689', N'Nigeria', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (75, N'Nguyễn Văn Khánh', CAST(N'2003-11-06' AS Date), N'Female', N'568-2519 Sollicitudin Rd.', N'739182', N'Australia', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (76, N'Đức Anh', CAST(N'1999-11-16' AS Date), N'Male', N'4121 Netus Street', N'18725', N'Peru', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (77, N'Khánh Huyền', CAST(N'2002-02-23' AS Date), N'Female', N'P.O. Box 828, 2833 Molestie Ave', N'987843', N'South Africa', N'AI')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (78, N'Diễm Hương', CAST(N'1999-02-08' AS Date), N'Male', N'P.O. Box 987, 7783 Id, Av.', N'88205', N'Poland', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (79, N'Nguyễn Văn Khánh', CAST(N'2002-07-30' AS Date), N'Female', N'7217 Mattis Road', N'3947541', N'United Kingdom', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (80, N'Nguyễn Văn Quân', CAST(N'1997-06-13' AS Date), N'Male', N'Ap 684-1833 Accumsan Ave', N'317274', N'Austria', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (81, N'Nguyễn Văn Quân', CAST(N'1996-07-04' AS Date), N'Female', N'9839 Tincidunt St.', N'39371', N'New Zealand', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (82, N'Trần Thị Mỹ Linh', CAST(N'2001-10-21' AS Date), N'Male', N'Ap 376-3001 Iaculis Av.', N'42742', N'United Kingdom', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (83, N'Hoàng Thị Thuỳ Dung', CAST(N'1997-12-04' AS Date), N'Male', N'Ap 641-7042 Quis St.', N'79759', N'Nigeria', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (84, N'Lê Minh Hiếu', CAST(N'2004-12-05' AS Date), N'Female', N'P.O. Box 207, 831 Mattis Ave', N'7456', N'Germany', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (85, N'Phạm Ngọc Anh', CAST(N'1996-12-19' AS Date), N'Male', N'647-2654 Tortor Av.', N'5883', N'United Kingdom', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (86, N'Phạm Ngọc Anh', CAST(N'1999-10-28' AS Date), N'Female', N'P.O. Box 888, 463 Libero. Road', N'66571', N'Belgium', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (87, N'Trần Thị Thuỳ Linh', CAST(N'2002-02-05' AS Date), N'Female', N'Ap 441-6048 Vulputate, St.', N'6546', N'Belgium', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (88, N'Lê Minh Hiếu', CAST(N'1996-11-19' AS Date), N'Female', N'Ap 492-8684 Dolor St.', N'31111', N'Nigeria', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (89, N'Trần Thị Mỹ Linh', CAST(N'2001-05-22' AS Date), N'Male', N'9652 Magna St.', N'R2G 2G2', N'Belgium', N'BA')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (90, N'Trần Thị Mỹ Linh', CAST(N'2001-05-23' AS Date), N'Male', N'Ap 722-4194 Odio. Avenue', N'7858', N'Ireland', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (91, N'Phạm Ngọc Anh', CAST(N'2001-10-05' AS Date), N'Female', N'9364 Diam Street', N'51206', N'South Africa', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (92, N'Trần Thị Mỹ Linh', CAST(N'1996-12-28' AS Date), N'Male', N'P.O. Box 964, 8712 Tellus. St.', N'365483', N'United Kingdom', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (93, N'Phạm Ngọc Anh', CAST(N'1997-03-09' AS Date), N'Male', N'351-398 Ut Ave', N'45-32', N'Turkey', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (94, N'Trần Thị Thuỳ Linh', CAST(N'1996-06-27' AS Date), N'Female', N'Ap 711-7547 Morbi Street', N'131867', N'Germany', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (95, N'Lê Minh Hiếu', CAST(N'2002-04-26' AS Date), N'Female', N'212-2326 Enim Av.', N'1747', N'Ireland', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (96, N'Nguyễn Văn Quân', CAST(N'1997-03-06' AS Date), N'Female', N'1840 Euismod Avenue', N'60249', N'Nigeria', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (97, N'Lê Minh Hiếu', CAST(N'2004-08-21' AS Date), N'Male', N'891-3751 Mollis Street', N'486116', N'Peru', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (98, N'Phạm Ngọc Anh', CAST(N'1999-04-22' AS Date), N'Female', N'934-9013 Sem Av.', N'7533', N'Norway', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (99, N'Trần Thị Mỹ Linh', CAST(N'1996-05-16' AS Date), N'Male', N'P.O. Box 258, 3896 Sed Rd.', N'4483-2223', N'Vietnam', N'MC')
+INSERT [dbo].[Students] ([id], [name], [birthdate], [gender], [address], [city], [country], [department]) VALUES (100, N'Phạm Ngọc Anh', CAST(N'1997-12-27' AS Date), N'Female', N'529-8407 Donec Rd.', N'50498', N'Netherlands', N'MC')
+GO
 INSERT [dbo].[Assessments] ([id], [type], [name], [percent], [courseId]) VALUES (1, N'lab', N'lab 1', 0.02, 8)
 INSERT [dbo].[Assessments] ([id], [type], [name], [percent], [courseId]) VALUES (2, N'lab', N'lab 2', 0.02, 8)
 INSERT [dbo].[Assessments] ([id], [type], [name], [percent], [courseId]) VALUES (3, N'lab', N'lab 3', 0.02, 8)
