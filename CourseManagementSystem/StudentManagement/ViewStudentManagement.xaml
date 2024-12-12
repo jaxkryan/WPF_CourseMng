@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CourseManagementSystem.StudentManagement"
         mc:Ignorable="d"
-        Title="ViewStudentManagement" Height="650" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="ViewStudentManagement" Height="650" Width="1250" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14"/>
@@ -43,6 +43,8 @@
                 Click="AddBtn_Click" FontWeight="Bold" Margin="5"/>
             <Button Name="btnExport" Content="Export to Excel" FontWeight="Bold" Click="ExportBtn_Click" 
                 Margin="5" Width="120" Background="LightBlue" HorizontalAlignment="Right" Grid.Row="3"/>
+            <Button Name="btnImport" Content="Import from Excel" FontWeight="Bold" Click="ImportBtn_Click" 
+     Margin="5" Width="120" Background="LightBlue" HorizontalAlignment="Right" Grid.Row="3"/>
         </StackPanel>
         <DataGrid IsReadOnly="True" Name="dgData" Grid.Row="2" AutoGenerateColumns="False"
           CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,10"

@@ -69,7 +69,7 @@ namespace CourseManagementSystem.DepartmentManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/departmentmanagement/departments.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/departmentmanagement/departments.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\DepartmentManagement\Departments.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

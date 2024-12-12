@@ -26,7 +26,6 @@ namespace CourseManagementSystem
         public Login()
         {
             InitializeComponent();
-            Password.Visibility = Visibility.Collapsed;
         }
 
         public void LoginButton_Click(object sender, RoutedEventArgs e)

@@ -8,7 +8,7 @@
         Title="Login" Height="450" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#f0f0f0">
     <Grid>
         <!-- Background Image -->
-        <Image Source="C:\Users\Phong Vu\Desktop\DHFPT6-1.jpg" Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Image Source="Image/DHFPT6-1.jpg" Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
         <!-- Semi-transparent white overlay for left login form -->
         <Grid Background="#AAFFFFFF" Margin="0,0,350,0">
@@ -25,19 +25,19 @@
             </Grid.ColumnDefinitions>
 
             <!-- Left Section (Login Form) -->
-            <StackPanel Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,99,0,0" Grid.RowSpan="5">
+            <StackPanel Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,99,0,0" Grid.RowSpan="5" Height="303">
                 <TextBlock Text="Academic Portal Lite" 
                         FontSize="28" FontWeight="Bold" Foreground="DarkOrange" 
                         HorizontalAlignment="Center" Margin="10"/>
 
                 <Label Content="Username:" Foreground="DarkGreen"/>
-                <TextBox x:Name="Username" Margin="10" Background="LightGreen" Foreground="DarkGreen"/>
+                <TextBox x:Name="Username" Margin="20" Background="LightGreen" Foreground="DarkGreen"/>
 
                 <Label Content="Password:" Foreground="DarkGreen"/>
-                <PasswordBox x:Name="Password" Margin="10" Background="LightGreen" Foreground="DarkGreen"/>
+                <PasswordBox x:Name="Password" Margin="20" Background="LightGreen" Foreground="DarkGreen"/>
 
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="10">
-                    <Button x:Name="LoginButton" Content="Login" Width="150" Margin="5" Click="LoginButton_Click"
+                    <Button x:Name="LoginButton" Content="Login" Width="150" Click="LoginButton_Click"
                          Background="DarkOrange" Foreground="White"/>
                     <!--<Button x:Name="CancelButton" Content="Cancel" Width="150" Margin="5" Click="CancelButton_Click"
                          Background="Tomato" Foreground="White"/>-->

@@ -109,7 +109,7 @@ namespace CourseManagementSystem.StudentManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/studentmanagement/addstudent.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/studentmanagement/addstudent.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\StudentManagement\AddStudent.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
