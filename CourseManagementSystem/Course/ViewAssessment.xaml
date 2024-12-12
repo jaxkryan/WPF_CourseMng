@@ -13,10 +13,23 @@
             <Setter Property="ColumnHeaderHeight" Value="40"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
-        <Style TargetType="Button">
+        <!-- Button Style -->
+        <Style TargetType="Button" x:Key="OrangeButtonStyle">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Padding" Value="10,5"/>
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FFA500"/>
+            <Setter Property="BorderBrush" Value="#FF8C00"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF8C00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF4500"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
     <Grid>
@@ -28,7 +41,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Label Content="ASSESSMENT MANAGEMENT" Foreground="Red" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+        <Label Content="ASSESSMENT MANAGEMENT" Foreground="White" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
         <DataGrid IsReadOnly="True" Name="dgAssessments" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="*"/>
@@ -36,8 +49,10 @@
                 <DataGridTextColumn Header="Percent" Binding="{Binding Percent}" Width="Auto"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Add Assessment" Name="btnAddAssessment" Width="130" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Grid.Row="2" Click="btnAddAssessment_Click"/>
-        <Button Content="Edit Assessment" Name="btnEditAssessment" Width="130" Height="35" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Grid.Row="2" Click="btnEditAssessment_Click"/>
-        <Button Content="Close" Name="btnClose" Width="130" Height="35" VerticalAlignment="Bottom" Margin="10" Grid.Row="2" Click="btnClose_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+            <Button Content="Add Assessment" Name="btnAddAssessment" Width="130" Height="35" Style="{StaticResource OrangeButtonStyle}" Click="btnAddAssessment_Click"/>
+            <Button Content="Edit Assessment" Name="btnEditAssessment" Width="130" Height="35" Style="{StaticResource OrangeButtonStyle}" Click="btnEditAssessment_Click"/>
+            <Button Content="Close" Name="btnClose" Width="130" Height="35" Style="{StaticResource OrangeButtonStyle}" Click="btnClose_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

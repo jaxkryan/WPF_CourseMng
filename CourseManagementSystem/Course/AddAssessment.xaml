@@ -7,33 +7,64 @@
         mc:Ignorable="d"
         Title="AddAssessment" Height="450" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
+        <!-- Shared Brush for Orange Theme -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#FF9C5400"/>
+        <!-- Orange -->
+        <SolidColorBrush x:Key="ButtonHoverColor" Color="#FFD37C00"/>
+
+        <!-- TextBox Style -->
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Padding" Value="5"/>
             <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
+
+        <!-- ComboBox Style -->
         <Style TargetType="ComboBox">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Padding" Value="5"/>
             <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
+
+        <!-- Label Style -->
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
         </Style>
+
+        <!-- Button Style -->
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Padding" Value="10,5"/>
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource ButtonHoverColor}"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
+
     <Grid>
-        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label Content="ADD NEW ASSESSMENT" Foreground="red" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+
+        <!-- Title -->
+        <Label Content="ADD NEW ASSESSMENT" Foreground="{StaticResource PrimaryColor}" FontSize="18" 
+               FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+
+        <!-- Form Section -->
         <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="20" Margin="10" Grid.Row="1">
             <StackPanel>
                 <Label Content="Type:"/>
@@ -45,11 +76,15 @@
                     <ComboBoxItem Content="Practical Exam"/>
                     <ComboBoxItem Content="Final Exam"/>
                 </ComboBox>
+
                 <Label Content="Name:"/>
                 <TextBox x:Name="txtName"/>
+
                 <Label Content="Percent:"/>
                 <TextBox x:Name="txtPercent"/>
-                <Button Content="ADD" Width="100" Margin="30" Click="btnAdd_Click"/>
+
+                <!-- Add Button -->
+                <Button Content="ADD" Width="100" Margin="30" HorizontalAlignment="Center" Click="btnAdd_Click"/>
             </StackPanel>
         </Border>
     </Grid>

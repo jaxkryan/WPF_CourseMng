@@ -205,7 +205,8 @@ namespace CourseManagementSystem.EnrollmentManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/enrollmentmanagement/enrollmentmanagement.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/enrollmentmanagement/enrollmentmanagem" +
+                    "ent.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\EnrollmentManagement\EnrollmentManagement.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

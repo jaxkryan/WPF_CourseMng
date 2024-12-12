@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="Departments" Height="600" Width="1020" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
+        <Style TargetType="Button" x:Key="StyledButton">
+            <Setter Property="Background" Value="#FFA500"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF8C00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF4500"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
 
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14"/>
@@ -33,7 +50,13 @@
                HorizontalAlignment="Center"
                Grid.Row="0" 
                Margin="0,0,0,20"/>
-        
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1" Margin="0,0,0,10">
+            <Button Content="Add" Name="btnAdd" Style="{StaticResource StyledButton}" Width="100" Click="btnAdd_Click"/>
+            <Button Content="Update" Name="btnUpdate" Style="{StaticResource StyledButton}" Width="100" Click="btnUpdate_Click"/>
+            <Button Content="Delete" Name="btnDelete" Style="{StaticResource StyledButton}" Width="100" Click="btnDelete_Click"/>
+        </StackPanel>
+
         <DataGrid x:Name="dgDepartments" 
                   Grid.Row="2" 
                   AutoGenerateColumns="False" 
@@ -47,7 +70,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-  
         <Button Grid.Row="3" 
                 Name="btnClose" 
                 Content="Close" 

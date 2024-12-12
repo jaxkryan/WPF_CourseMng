@@ -5,58 +5,88 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CourseManagementSystem.Course"
         mc:Ignorable="d"
-        Title="AddCourse" Height="450" Width="450"  WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="AddCourse" Height="450" Width="450" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+
     <Window.Resources>
+        <!-- Shared Theme Colors -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#FF9C5400"/>
+        <!-- Orange -->
+        <SolidColorBrush x:Key="ButtonHoverColor" Color="#FFD37C00"/>
+
+        <!-- Label Style -->
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
         </Style>
 
+        <!-- Title Label Style -->
         <Style x:Key="TitleLabelStyle" TargetType="Label">
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
 
+        <!-- TextBlock Style -->
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Margin" Value="0,10,0,10"/>
+            <Setter Property="Margin" Value="5,10,0,5"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
         </Style>
 
+        <!-- TextBox Style -->
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="5"/>
         </Style>
 
+        <!-- Button Base Style -->
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="75"/>
-            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="35"/>
             <Setter Property="Margin" Value="5"/>
-            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource ButtonHoverColor}"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
 
-        <Style x:Key="AddButtonStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
-            <Setter Property="Background" Value="LightBlue"/>
+        <!-- Cancel Button Style -->
+        <Style x:Key="CancelButtonStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="Gray"/>
         </Style>
     </Window.Resources>
 
+    <!-- Main UI -->
     <Grid>
+        <!-- Layout Definitions -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="300"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <!-- Title Section -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0">
             <Label Content="ADD NEW COURSE" Style="{StaticResource TitleLabelStyle}"/>
         </StackPanel>
+
+        <!-- Input Form Section -->
         <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="20" Margin="10" Grid.Row="1">
-            <StackPanel Orientation="Vertical" Grid.Row="1" Margin="10">
+            <StackPanel Orientation="Vertical" Margin="10">
                 <TextBlock Text="Course Code:"/>
                 <TextBox Name="txtCourseCode"/>
                 <TextBlock Text="Course Title:"/>
@@ -65,10 +95,11 @@
                 <TextBox Name="txtCredits"/>
             </StackPanel>
         </Border>
+
+        <!-- Buttons Section -->
         <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="10">
-                <Button Name="btnAdd" Content="ADD" Click="btnAdd_Click" Style="{StaticResource AddButtonStyle}"/>
-                <Button Name="btnCancel" Content="CANCEL" Click="btnCancel_Click"/>
-            </StackPanel>
-     
+            <Button Name="btnAdd" Content="ADD" Click="btnAdd_Click"/>
+            <Button Name="btnCancel" Content="CANCEL" Style="{StaticResource CancelButtonStyle}" Click="btnCancel_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

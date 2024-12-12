@@ -8,6 +8,27 @@
         Title="ViewCourseManage" Height="600" Width="1020" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Resources>
         <local:StatusToStringConverter x:Key="StatusToStringConverter"/>
+
+        <!-- Button Style -->
+        <Style TargetType="Button" x:Key="OrangeButtonStyle">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FFA500"/>
+            <Setter Property="BorderBrush" Value="#FF8C00"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="5,3"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF8C00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF4500"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- DataGrid Style -->
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="ColumnHeaderHeight" Value="40"/>
@@ -15,38 +36,60 @@
             <Setter Property="Margin" Value="10"/>
         </Style>
     </Window.Resources>
+
     <Grid>
+        <!-- Background Image with Opaque Layer -->
         <Grid.Background>
-            <ImageBrush ImageSource="/Image/DHFPT6-1.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Image/DHFPT6-1.jpg" Stretch="UniformToFill" Opacity="0.8"/>
         </Grid.Background>
+        <!--<Rectangle Fill="Black" Opacity="0.3" Panel.ZIndex="0"/>-->
+
+        <!-- Define two Columns: Left (20%) and Right (80%) -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="COURSE MANAGEMENT" Foreground="Red" Margin="0,0,0,9" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="10,10,0,10">
-            <TextBlock Text="Filter by Title:" Margin="10" Foreground="White"/>
-            <ComboBox Name="cbFilterTitle" Width="200" Margin="5" SelectionChanged="FilterCourses"/>
-            <TextBlock Text="Filter by Credits:" Margin="10" Foreground="White"/>
-            <ComboBox Name="cboFilterCredits" Width="40" Margin="5" SelectionChanged="FilterCourses"/>
-            <Button Name="btnClearFilter" Content="Clear Filter" FontWeight="Bold" Click="btnClearFilter_Click" Margin="5" Width="70"/>
-            <Button Name="btnAddCourse" Content="ADD COURSE" Background="LightGreen" Width="100" Click="btnAddCourse_Click" FontWeight="Bold" Margin="5"/>
-            <Button Name="btnUpdateCourse" Content="UPDATE COURSE" Background="Aqua" Width="100" Click="btnUpdateCourse_Click" FontWeight="Bold" Margin="5"/>
-            <Button Name="btnChangeStatus" Content="CHANGE STATUS" Background="LightCoral" Width="100" Click="btnChangeStatus_Click" FontWeight="Bold" Margin="5"/>
-            <Button Name="btnViewAssessments" Content="VIEW ASSESSMENTS" Background="LightBlue" Width="120" Click="btnViewAssessments_Click" FontWeight="Bold" Margin="5"/>
+        <!-- Header -->
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Content="COURSE MANAGEMENT" Foreground="White" FontSize="25" 
+               HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+
+        <!-- Filters and Buttons on the Left -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical" Margin="10" Panel.ZIndex="1">
+            <!-- Filters -->
+            <TextBlock Text="Filter by Title:" Margin="0,10,0,5" Foreground="White"/>
+            <ComboBox Name="cbFilterTitle" Width="200" SelectionChanged="FilterCourses"/>
+
+            <TextBlock Text="Filter by Credits:" Margin="0,10,0,5" Foreground="White"/>
+            <ComboBox Name="cboFilterCredits" Width="200" SelectionChanged="FilterCourses"/>
+
+            <!-- Buttons -->
+            <Button Name="btnClearFilter" Content="Clear Filter" Width="200" Style="{StaticResource OrangeButtonStyle}" Margin="0,20,0,0" Click="btnClearFilter_Click"/>
+            <Button Name="btnAddCourse" Content="Add Course" Width="200" Style="{StaticResource OrangeButtonStyle}" Margin="0,10,0,0" Click="btnAddCourse_Click"/>
+            <Button Name="btnUpdateCourse" Content="Update Course" Width="200" Style="{StaticResource OrangeButtonStyle}" Margin="0,10,0,0" Click="btnUpdateCourse_Click"/>
+            <Button Name="btnChangeStatus" Content="Change Status" Width="200" Style="{StaticResource OrangeButtonStyle}" Margin="0,10,0,0" Click="btnChangeStatus_Click"/>
+            <Button Name="btnViewAssessments" Content="View Assessments" Width="200" Style="{StaticResource OrangeButtonStyle}" Margin="0,10,0,0" Click="btnViewAssessments_Click"/>
         </StackPanel>
-        <Button Grid.Row="3" Name="btnClose" Content="Close" Click="btnClose_Click" Margin="5" Height="40" Width="100" FontWeight="Bold"/>
-        <DataGrid IsReadOnly="True" Name="dgCourses" Grid.Row="2" Grid.Column="1" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,10,10,10">
+
+        <!-- DataGrid on the Right -->
+        <DataGrid IsReadOnly="True" Name="dgCourses" Grid.Row="1" Grid.Column="1" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" CanUserDeleteRows="False" Margin="10" Panel.ZIndex="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="*"/>
                 <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*"/>
-                <DataGridTextColumn Header="Credits" Binding="{Binding Credits}" Width="*"/>
+                <DataGridTextColumn Header="Credits" Binding="{Binding Credits}" Width="0.5*"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status, Converter={StaticResource StatusToStringConverter}}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
+
+        <!-- Close Button at the Bottom -->
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="Close" Style="{StaticResource OrangeButtonStyle}"
+                HorizontalAlignment="Center" Margin="5" Height="40" Width="100" Click="btnClose_Click"/>
     </Grid>
 </Window>

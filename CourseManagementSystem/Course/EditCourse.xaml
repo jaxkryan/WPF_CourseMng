@@ -13,27 +13,31 @@
             <Setter Property="Margin" Value="5"/>
         </Style>
 
-
         <Style x:Key="TitleLabelStyle" TargetType="Label">
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Foreground" Value="#FF9C5400"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
 
-
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Margin" Value="0,10,0,10"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,5,10,5"/>
+            <Setter Property="Foreground" Value="#FF9C5400"/>
         </Style>
-
 
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
+            <Setter Property="BorderThickness" Value="1"/>
         </Style>
+
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -41,40 +45,67 @@
             <Setter Property="Height" Value="30"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Background" Value="#FF9C5400"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="DarkOrange"/>
         </Style>
 
-
         <Style x:Key="SaveButtonStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
-            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="Background" Value="#FFD37C00"/>
+            <Setter Property="Foreground" Value="White"/>
         </Style>
     </Window.Resources>
 
-    <Grid>
+    <Grid Margin="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Title -->
             <RowDefinition Height="*"/>
-            <RowDefinition Height="300"/>
-            <RowDefinition Height="70"/>
+            <!-- Input Fields -->
+            <RowDefinition Height="Auto"/>
+            <!-- Buttons -->
         </Grid.RowDefinitions>
 
-
+        <!-- Title Section -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0">
             <Label Content="EDIT COURSE" Style="{StaticResource TitleLabelStyle}"/>
         </StackPanel>
 
+        <!-- Input Fields with Border -->
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="15" Grid.Row="1">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="10">
-            <TextBlock Text="Course ID:"/>
-            <TextBlock Name="txtCourseId"/>
-            <TextBlock Text="Course Code:"/>
-            <TextBox Name="txtCourseCode"/>
-            <TextBlock Text="Course Title:"/>
-            <TextBox Name="txtCourseTitle"/>
-            <TextBlock Text="Credits:"/>
-            <TextBox Name="txtCredits"/>
-        </StackPanel>
+                <!-- Course ID -->
+                <TextBlock Text="Course ID:" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Name="txtCourseId" Grid.Row="0" Grid.Column="1"/>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="10">
-            <Button Name="btnSave" Content="SAVE" Click="btnSave_Click" Style="{StaticResource SaveButtonStyle}"/>
+                <!-- Course Code -->
+                <TextBlock Text="Course Code:" Grid.Row="1" Grid.Column="0"/>
+                <TextBox Name="txtCourseCode" Grid.Row="1" Grid.Column="1"/>
+
+                <!-- Course Title -->
+                <TextBlock Text="Course Title:" Grid.Row="2" Grid.Column="0"/>
+                <TextBox Name="txtCourseTitle" Grid.Row="2" Grid.Column="1"/>
+
+                <!-- Credits -->
+                <TextBlock Text="Credits:" Grid.Row="3" Grid.Column="0"/>
+                <TextBox Name="txtCredits" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+        </Border>
+
+        <!-- Buttons Section -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Name="btnSave" Content="SAVE" Style="{StaticResource SaveButtonStyle}" Click="btnSave_Click"/>
             <Button Name="btnCancel" Content="CANCEL" Click="btnCancel_Click"/>
         </StackPanel>
     </Grid>
