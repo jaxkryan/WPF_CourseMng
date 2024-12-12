@@ -16,5 +16,5 @@ D:\WPF_CourseMng\CourseManagementSystem\App.xaml
 252-1365602365
 Course\AddAssessment.xaml;Course\AddCourse.xaml;Course\EditAssessment.xaml;Course\EditCourse.xaml;Course\ViewAssessment.xaml;Course\ViewCourseManage.xaml;DepartmentManagement\AddDepartmentWindow.xaml;DepartmentManagement\Departments.xaml;DepartmentManagement\EditDepartmentWindow.xaml;EnrollmentManagement\AddEnrollment.xaml;EnrollmentManagement\EditMark.xaml;EnrollmentManagement\EnrollmentManagement.xaml;Home.xaml;Login.xaml;SemeterManagement\AddSemester.xaml;SemeterManagement\EditSemester.xaml;SemeterManagement\SemesterManagement.xaml;StudentManagement\AddStudent.xaml;StudentManagement\ViewStudentManagement.xaml;
 
-True
+False
 

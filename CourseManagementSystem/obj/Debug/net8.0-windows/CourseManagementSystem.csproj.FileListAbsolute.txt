@@ -556,3 +556,7 @@ D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\CourseManagemen
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\ref\CourseManagementSystem.dll
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\Course\EditAssessment.g.cs
 D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\Course\EditAssessment.baml
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\DepartmentManagement\AddDepartmentWindow.baml
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\DepartmentManagement\AddDepartmentWindow.g.cs
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\DepartmentManagement\EditDepartmentWindow.g.cs
+D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\DepartmentManagement\EditDepartmentWindow.baml

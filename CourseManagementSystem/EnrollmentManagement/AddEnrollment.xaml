@@ -6,37 +6,97 @@
         xmlns:local="clr-namespace:CourseManagementSystem.EnrollmentManagement"
         mc:Ignorable="d"
         Title="AddEnrollment" Height="350" Width="400">
+
+    <Window.Resources>
+        <!-- Shared Brush for Orange Theme -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#FF9C5400"/>
+        <!-- Orange -->
+        <SolidColorBrush x:Key="ButtonHoverColor" Color="#FFD37C00"/>
+
+        <!-- TextBox Style -->
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- ComboBox Style -->
+        <Style TargetType="ComboBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- Label Style -->
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+        </Style>
+
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource ButtonHoverColor}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-        </Grid.ColumnDefinitions>
-        <Label x:Name="lblTitle" Content="Add Enrollment" Grid.Column="1" Grid.Row="1" Foreground="Red" FontSize="20" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
 
-        <Label x:Name="lblStudent" Content="Student Name" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
-        <ComboBox x:Name="cboStudent" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Width="140" HorizontalAlignment="Left"/>
+        <Label Content="Add Enrollment" Foreground="{StaticResource PrimaryColor}" FontSize="18" 
+               FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
+        
+        <!--<Label x:Name="lblTitle" Content="Add Enrollment" Grid.Column="1" Grid.Row="1" Foreground="Red" FontSize="20" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>-->
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="20" Margin="10,10,10,105" Grid.Row="1">
+            <StackPanel Height="109" VerticalAlignment="Top">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="lblStudent" Content="Student Name" Grid.Column="0" HorizontalAlignment="Left"/>
+                    <ComboBox x:Name="cboStudent" Grid.Column="1" Width="140" HorizontalAlignment="Right"/>
+                </Grid>
 
-        <Label x:Name="lblCourse" Content="Course" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
-        <ComboBox x:Name="cboCourse" Grid.Column="2" Grid.Row="5" Width="140" Grid.ColumnSpan="2" HorizontalAlignment="Left"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="lblCourse" Content="Course" Grid.Column="0" HorizontalAlignment="Left"/>
+                    <ComboBox x:Name="cboCourse" Grid.Column="1" Width="140" HorizontalAlignment="Right"/>
+                </Grid>
 
-        <Label x:Name="lblSemester" Content="Semester" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
-        <ComboBox x:Name="cboSemester" Grid.Column="2" Grid.Row="7" Width="140" Grid.ColumnSpan="2" HorizontalAlignment="Left"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="lblSemester" Content="Semester" Grid.Column="0" HorizontalAlignment="Left"/>
+                    <ComboBox x:Name="cboSemester" Grid.Column="1" Width="140" HorizontalAlignment="Right"/>
+                </Grid>
+            </StackPanel>
+            
+        </Border>
+        <Button x:Name="btnAdd" Content="Add" Width="120" Click="btnAdd_Click" Margin="140,210,140,36" Grid.Row="1"/>
 
-        <Button x:Name="btnAdd" Content="Add" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" Width="120" Click="btnAdd_Click"/>
     </Grid>
 </Window>

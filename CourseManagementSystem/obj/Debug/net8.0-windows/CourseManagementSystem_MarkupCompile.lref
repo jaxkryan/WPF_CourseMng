@@ -1,4 +1,4 @@
-﻿D:\WPF_CourseMng\CourseManagementSystem\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+﻿
 
 FD:\WPF_CourseMng\CourseManagementSystem\Course\AddAssessment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\AddCourse.xaml;;
@@ -7,6 +7,7 @@ FD:\WPF_CourseMng\CourseManagementSystem\Course\EditCourse.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\ViewAssessment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\Course\ViewCourseManage.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\DepartmentManagement\Departments.xaml;;
+FD:\WPF_CourseMng\CourseManagementSystem\DepartmentManagement\EditDepartmentWindow.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\EnrollmentManagement\AddEnrollment.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\EnrollmentManagement\EditMark.xaml;;
 FD:\WPF_CourseMng\CourseManagementSystem\EnrollmentManagement\EnrollmentManagement.xaml;;
