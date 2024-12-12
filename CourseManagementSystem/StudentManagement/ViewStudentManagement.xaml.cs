@@ -184,50 +184,42 @@ namespace CourseManagementSystem.StudentManagement
                     if (package.Workbook.Worksheets.Count > 0)
                     {
                         ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-                        // Get the data from the Excel file
                         DataTable dataTable = new DataTable();
                         for (int j = 1; j <= worksheet.Dimension.End.Column; j++)
                         {
                             dataTable.Columns.Add($"Column{j}");
                         }
 
-                        for (int i = 1; i <= worksheet.Dimension.End.Row; i++)
+                        for (int i = 2; i <= worksheet.Dimension.End.Row; i++)
                         {
                             DataRow dataRow = dataTable.NewRow();
                             for (int j = 1; j <= worksheet.Dimension.End.Column; j++)
                             {
-                                dataRow[j - 1] = worksheet.Cells[i, j].Value;
+                                dataRow[j - 1] = worksheet.Cells[i, j].Value ?? string.Empty;
                             }
                             dataTable.Rows.Add(dataRow);
                         }
 
-                        // Add the data to the database
                         using (CourseManagementDbContext context = new CourseManagementDbContext())
                         {
                             foreach (DataRow row in dataTable.Rows)
                             {
-                                Student student = new Student();
-                                student.Name = row[1]?.ToString();
-                                if (DateOnly.TryParseExact(row[2]?.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateOnly birthDate))
+                                Student student = new Student
                                 {
-                                    student.Birthdate = birthDate;
-                                }
-                                else
-                                {
-                                    student.Birthdate = null; // or handle the error as needed
-                                }
-                                student.Gender = row[3]?.ToString();
-                                student.Address = row[4]?.ToString();
-                                student.City = row[5]?.ToString();
-                                student.Country = row[6]?.ToString();
-                                student.Department = row[7]?.ToString();
+                                    Name = row[1]?.ToString(),
+                                    Birthdate = DateOnly.TryParseExact(row[2]?.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateOnly birthDate) ? birthDate : null,
+                                    Gender = row[3]?.ToString(),
+                                    Address = row[4]?.ToString(),
+                                    City = row[5]?.ToString(),
+                                    Country = row[6]?.ToString(),
+                                    Department = row[7]?.ToString()
+                                };
 
                                 context.Students.Add(student);
                             }
                             context.SaveChanges();
                         }
 
-                        // Refresh the DataGrid
                         LoadStudent();
                     }
                     else
