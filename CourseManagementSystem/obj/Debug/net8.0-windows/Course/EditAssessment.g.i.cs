@@ -85,7 +85,7 @@ namespace CourseManagementSystem.Course {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/course/editassessment.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/course/editassessment.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Course\EditAssessment.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -33,7 +33,7 @@ namespace CourseManagementSystem.StudentManagement
             _context = new CourseManagementDbContext();
             LoadGender();
             LoadDepartment();
-            LoadCountries();
+            //LoadCountries();
             NewStudent = new Student();
         }
         public void LoadGender()
@@ -47,13 +47,17 @@ namespace CourseManagementSystem.StudentManagement
         }
         public void LoadDepartment()
         {
-            cboDepartment.ItemsSource = _context.Departments.Select(x => x.Name).ToList();
+
+                cboDepartment.ItemsSource = _context.Departments
+                    .Where(d => d.Status == 1)
+                    .Select(d => d.Name)
+                    .ToList();
         }
-        public void LoadCountries()
-        {
-            var listCountries = _context.Students.Select(c  => c.Country).ToList();
-            cboCountry.ItemsSource = listCountries;
-        }
+        //public void LoadCountries()
+        //{
+        //    var listCountries = _context.Students.Select(c  => c.Country).ToList();
+        //    cboCountry.ItemsSource = listCountries;
+        //}
         private void AddBtn_Click(object sender, RoutedEventArgs e)
         {
             if (!ValidateInputs(out string name, out DateOnly? birthDate, out string gender, out string address, out string city, out string country, out string departmentName))
@@ -93,8 +97,8 @@ namespace CourseManagementSystem.StudentManagement
             gender = cboGender.Text;
             address = txtAddress.Text;
             city = txtCity.Text;
-            country = cboCountry.SelectedItem?.ToString(); 
-            departmentName = cboDepartment.SelectedItem?.ToString();
+            country = txtCity.Text;
+            departmentName = cboDepartment.SelectedItem?.ToString() ?? string.Empty;
 
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(gender) || string.IsNullOrWhiteSpace(address) ||
                 string.IsNullOrWhiteSpace(city) || string.IsNullOrWhiteSpace(country) || string.IsNullOrWhiteSpace(departmentName))

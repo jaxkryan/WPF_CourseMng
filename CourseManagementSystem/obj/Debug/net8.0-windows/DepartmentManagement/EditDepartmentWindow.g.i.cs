@@ -85,8 +85,7 @@ namespace CourseManagementSystem.DepartmentManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;V1.0.0.0;component/departmentmanagement/editdepartmentwin" +
-                    "dow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CourseManagementSystem;component/departmentmanagement/editdepartmentwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\DepartmentManagement\EditDepartmentWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

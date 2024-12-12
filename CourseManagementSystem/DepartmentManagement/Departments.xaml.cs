@@ -79,9 +79,10 @@ namespace CourseManagementSystem.DepartmentManagement
 
                 if (result == MessageBoxResult.Yes)
                 {
-                    _context.Departments.Remove(selectedDept);
+                    selectedDept.Status = 0; // Set status to 0 instead of removing
+                    _context.Departments.Update(selectedDept);
                     _context.SaveChanges();
-                    _departments.Remove(selectedDept);
+                    LoadDepartments(); // Refresh Grid
                 }
             }
             else

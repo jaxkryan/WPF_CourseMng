@@ -103,7 +103,7 @@
                 <TextBox x:Name="txtCity" Grid.Row="4" Grid.Column="1"/>
 
                 <Label Content="Country:" Grid.Row="5" Grid.Column="0"/>
-                <ComboBox x:Name="cboCountry" Grid.Row="5" Grid.Column="1"/>
+                <TextBox x:Name="txtCountry" Grid.Row="5" Grid.Column="1"/>
 
                 <Label Content="Department:" Grid.Row="6" Grid.Column="0"/>
                 <ComboBox x:Name="cboDepartment" Grid.Row="6" Grid.Column="1"/>

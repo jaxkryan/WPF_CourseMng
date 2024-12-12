@@ -83,11 +83,11 @@ namespace CourseManagementSystem.EnrollmentManagement
                     }
                     var marks = markService.getMark(enrollmentID);
                     int assessmentId = 0;
-                    foreach (var markz in marks)
+                    foreach (var markk in marks)
                     {
-                        if (markz.Assessment.Name.Equals(txtAssess.Text))
+                        if (markk.Assessment.Name.Equals(txtAssess.Text))
                         {
-                            assessmentId = markz.AssessmentId;
+                            assessmentId = markk.AssessmentId;
                         }
                     }
                     Mark mark = new Mark();

@@ -118,8 +118,8 @@ CREATE TABLE [dbo].[marks](
 GO
 
 --- Insert data
-INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUES (1, N'Admin', N'@admin123', 1)
-INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUES (2, N'Staff', N'@staff123', 2)
+INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUES (1, N'Manager', N'manager123', 1)
+INSERT [dbo].[AccountMember] ([AccountID], [Username], [Password], [Role]) VALUES (2, N'Teacher', N'teacher123', 2)
 GO
 
 INSERT [dbo].[Courses] ([id], [code], [title], [credits]) VALUES (1, N'SSL101c', N'SSL101c', 3)
